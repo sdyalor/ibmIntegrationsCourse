@@ -23,9 +23,8 @@ runmqsc QMGR1
 d //enter
   tooltips
 
-  - ```DEFINE QLOCAL (QL.TEST.REQ.01)```
-  - ```DEFINE QLOCAL (QL.TEST.RES.01)```
-
+```DEFINE QLOCAL (QL.TEST.REQ.01)```
+```DEFINE QLOCAL (QL.TEST.RES.01)```
 Check Local Queue List
 DISPLAY QLOCAL (QL.*)
 END
@@ -39,4 +38,22 @@ HOLA MUNDO
 ![](2020-01-14-12-57-36.png)
 ![](2020-01-14-12-58-02.png)
 
+const chain = [
+  20B: "CELSO",
+  20B: "",
+  20B: ""
+]
 
+![](2020-01-14-14-13-38.png)
+To access in esql
+DECLARE cadena CHARACTER ";
+//SET cadena = InputRoot.BLOB.BLOB
+SET cadena = CAST InputRoot.BLOB.BLOB AS CHARACTER CCSID InputRoot.CodedCharSetId
+
+SET ENVIRONMENT.cadena = cadena;
+![](2020-01-14-14-21-54.png)
+
+            julio   
+            cesar   
+            torres  
+            julio               cesar               torres  
