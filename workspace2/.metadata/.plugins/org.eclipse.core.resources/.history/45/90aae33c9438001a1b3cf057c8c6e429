@@ -1,0 +1,57 @@
+BROKER SCHEMA pe.com.arqsoft
+
+
+CREATE COMPUTE MODULE mF_myFirstRest_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		-- CALL CopyMessageHeaders();
+		
+		-- CALL CopyEntireMessage();
+		SET OutputRoot = InputRoot;
+		DECLARE requestIdentifier CHARACTER;
+		
+		SET requestIdentifier = InputLocalEnvironment.Destination.HTTP.RequestIdentifier;
+     	SET OutputLocalEnvironment.Destination.HTTP.RequestIdentifier = requestIdentifier;
+     	DECLARE testCode CHARACTER '222';
+     	SET testCode = '224';
+     	CALL deleteProduct(InputRoot.JSON.Data.COD_PRODUCTO,Environment.Producto[]);
+     	
+		RETURN TRUE;
+		
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+	--delete
+	CREATE PROCEDURE deleteProduct (IN codigo_producto CHARACTER)
+	  LANGUAGE DATABASE
+	  DYNAMIC RESULT SETS 1
+	  EXTERNAL NAME "ACE_SAMPLE.PKG_CONTROL.SP_DELETE_PROD";
+	--create  
+	CREATE PROCEDURE createProduct (IN codigo_producto CHARACTER, IN nombre_producto CHARACTER, IN cantidad_producto CHARACTER, IN precio_u_producto CHARACTER)
+	  LANGUAGE DATABASE
+	  DYNAMIC RESULT SETS 1
+	  EXTERNAL NAME "ACE_SAMPLE.PKG_CONTROL.SP_INSERT_PROD";
+	--update  
+	CREATE PROCEDURE updateProduct (IN codigo_producto CHARACTER, IN nombre_producto CHARACTER, IN cantidad_producto CHARACTER, IN precio_u_producto CHARACTER)
+	  LANGUAGE DATABASE
+	  DYNAMIC RESULT SETS 1
+	  EXTERNAL NAME "ACE_SAMPLE.PKG_CONTROL.SP_UPDATE_PROD";
+	CREATE PROCEDURE readProduct (IN codigo_producto CHARACTER)
+	  LANGUAGE DATABASE
+	  DYNAMIC RESULT SETS 1
+	  EXTERNAL NAME "ACE_SAMPLE.PKG_CONTROL.SP_DELETE_PROD";
+	
+  
+END MODULE;

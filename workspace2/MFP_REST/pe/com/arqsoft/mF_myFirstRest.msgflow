@@ -9,19 +9,19 @@
       <nodes xmi:type="ComIbmWSInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="183,216" URLSpecifier="/crud/producto" messageDomainProperty="JSON" faultFormat="HTML">
         <translation xmi:type="utility:ConstantString" string="HTTP Input"/>
       </nodes>
-      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="331,315" destination="file" filePath="/home/sdyalor/ibmIntegrationsCourse/TraceQL.REST.FAIL.log" pattern="MENSAJE error&#xD;&#xA;VER EXC: ${ExceptionList}&#xD;&#xA;">
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="331,315" destination="file" filePath="C:\Users\userbus\Desktop\Nueva carpeta\logfailinput" pattern="MENSAJE error&#xD;&#xA;VER EXC: ${ExceptionList}&#xD;&#xA;">
         <translation xmi:type="utility:ConstantString" string="Trace"/>
       </nodes>
-      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_5" location="346,171" destination="file" filePath="/home/sdyalor/ibmIntegrationsCourse/TraceQL.REST.SUCCSESS.log" pattern="MENSAJE ENTRADA&#xD;&#xA;VER ROOT: ${Root}&#xA;PRINT LOCAL ENVIRONMENT&#xA;VER ROOT: ${LocalEnvironment}&#xD;&#xA;">
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_5" location="346,171" destination="file" filePath="C:\Users\userbus\Desktop\Nueva carpeta\logsuccinput" pattern="MENSAJE ENTRADA&#xD;&#xA;VER ROOT: ${Root}&#xD;&#xA;&#xA;PRINT LOCAL&#xD;&#xA;ENVIRONMENT&#xA;VER ROOT: ${LocalEnvironment}&#xD;&#xA;">
         <translation xmi:type="utility:ConstantString" string="Trace1"/>
       </nodes>
-      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_7" location="489,247" computeExpression="esql://routine/pe.com.arqsoft#mF_myFirstRest_Compute.Main">
+      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_7" location="489,247" dataSource="ACE_SAMPLE" computeExpression="esql://routine/pe.com.arqsoft#mF_myFirstRest_Compute.Main">
         <translation xmi:type="utility:ConstantString" string="Compute"/>
       </nodes>
       <nodes xmi:type="ComIbmWSReply.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_8" location="670,243">
         <translation xmi:type="utility:ConstantString" string="HTTP Reply"/>
       </nodes>
-      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_9" location="605,183" destination="file" filePath="/home/sdyalor/ibmIntegrationsCourse/TraceQL.REST.OutputSUCCSESS.log" pattern="MENSAJE ENTRADA&#xD;&#xA;VER ROOT: ${Root}&#xA;VER ROOT: ${LocalEnvironment}&#xD;&#xA;">
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_9" location="605,183" destination="file" filePath="C:\Users\userbus\Desktop\Nueva carpeta\SuccessOUT" pattern="MENSAJE ENTRADA&#xD;&#xA;VER ROOT: ${Root}&#xA;VER ROOT: ${LocalEnvironment}&#xD;&#xA;">
         <translation xmi:type="utility:ConstantString" string="Trace2"/>
       </nodes>
       <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_1" targetNode="FCMComposite_1_5" sourceNode="FCMComposite_1_3" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
