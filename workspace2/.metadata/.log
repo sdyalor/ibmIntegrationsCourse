@@ -1,0 +1,49 @@
+!SESSION 2020-01-16 00:01:32.991 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.fullversion=8.0.5.35 - pxa6480sr5fp35ifix-20190524_01(SR5 FP35+IJ15979)
+JRE 1.8.0 Linux amd64-64-Bit Compressed References 20190524_417294 (JIT enabled, AOT enabled)
+OpenJ9   - 321e430
+OMR      - 16b77d7
+IBM      - 72459d3
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2020-01-16 00:01:52.329
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.ui 2 2 2020-01-16 00:01:57.388
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2020-01-16 00:01:57.402
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2020-01-16 00:01:57.402
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY com.ibm.mq.runtime 1 0 2020-01-16 00:01:59.177
+!MESSAGE /home/sdyalor/ibm/ace-11.0.0.7/ace mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2020-01-16 00:01:59.371
+!MESSAGE /opt/mqm
+
+!ENTRY com.ibm.mq.runtime 1 0 2020-01-16 00:01:59.372
+!MESSAGE BIP8071I: Successful command completion. 
+
+!ENTRY com.ibm.mq.runtime 1 0 2020-01-16 00:01:59.372
+!MESSAGE MQ Install location found:/opt/mqm
+
+!ENTRY com.ibm.mq.runtime 4 0 2020-01-16 00:01:59.375
+!MESSAGE MQ Jar file does not seem to be available. Check that the location exists:/opt/mqm/java/lib/com.ibm.mq.jar
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2020-01-16 09:29:49.605
+!MESSAGE 
+
+!ENTRY org.eclipse.ui 2 2 2020-01-16 09:29:55.675
+!MESSAGE Invalid property category path: org.eclipse.cdt.managedbuilder.ui.properties.Page_head_build (bundle: org.eclipse.cdt.ui, propertyPage: org.eclipse.cdt.managedbuilder.ui.properties.BuildLogPreferencePage)
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2020-01-16 09:35:47.384
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2020-01-16 09:42:44.204
+!MESSAGE No .vrapperrc or _vrapperrc found.

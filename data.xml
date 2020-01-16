@@ -1,1 +1,62 @@
-<DATA><ALUMNO><NOMBRE>JULIO CESAR</NOMBRE><NOTA1>16</NOTA1><NOTA2>15</NOTA2><NOTA3>16</NOTA3></ALUMNO><ALUMNO><NOMBRE>JUAN</NOMBRE><NOTA1>16</NOTA1><NOTA2>15</NOTA2><NOTA3>16</NOTA3></ALUMNO><ALUMNO><NOMBRE>PEDRO</NOMBRE><NOTA1>16</NOTA1><NOTA2>15</NOTA2><NOTA3>16</NOTA3></ALUMNO><ALUMNO><NOMBRE>CARLOS</NOMBRE><NOTA1>16</NOTA1><NOTA2>15</NOTA2><NOTA3>16</NOTA3></ALUMNO></DATA>
+<DATA>
+    <COLEGIO>
+        <CODIGO>001</CODIGO>
+        <NOMBRE>COLEGIO 1</COLEGIO>
+        <ALUMNOS>
+            <ALUMNO>
+                <NOMBRE>JULIO CESAR</NOMBRE>
+                <NOTA1>16</NOTA1>
+                <NOTA2>15</NOTA2>
+                <NOTA3>16</NOTA3>
+            </ALUMNO>
+            <ALUMNO>
+                <NOMBRE>JUAN</NOMBRE>
+                <NOTA1>16</NOTA1>
+                <NOTA2>15</NOTA2>
+                <NOTA3>16</NOTA3>
+            </ALUMNO>
+            <ALUMNO>
+                <NOMBRE>PEDRO</NOMBRE>
+                <NOTA1>16</NOTA1>
+                <NOTA2>15</NOTA2>
+                <NOTA3>16</NOTA3>
+            </ALUMNO>
+            <ALUMNO>
+                <NOMBRE>CARLOS</NOMBRE>
+                <NOTA1>16</NOTA1>
+                <NOTA2>15</NOTA2>
+                <NOTA3>16</NOTA3>
+            </ALUMNO>
+        </ALUMNOS>
+    </COLEGIO>
+    <COLEGIO>
+        <CODIGO>002</CODIGO>
+        <NOMBRE>COLEGIO 2</COLEGIO>
+        <ALUMNOS>
+            <ALUMNO>
+                <NOMBRE>JULIO CESAR</NOMBRE>
+                <NOTA1>16</NOTA1>
+                <NOTA2>15</NOTA2>
+                <NOTA3>16</NOTA3>
+            </ALUMNO>
+            <ALUMNO>
+                <NOMBRE>JUAN</NOMBRE>
+                <NOTA1>16</NOTA1>
+                <NOTA2>15</NOTA2>
+                <NOTA3>16</NOTA3>
+            </ALUMNO>
+            <ALUMNO>
+                <NOMBRE>PEDRO</NOMBRE>
+                <NOTA1>16</NOTA1>
+                <NOTA2>15</NOTA2>
+                <NOTA3>16</NOTA3>
+            </ALUMNO>
+            <ALUMNO>
+                <NOMBRE>CARLOS</NOMBRE>
+                <NOTA1>16</NOTA1>
+                <NOTA2>15</NOTA2>
+                <NOTA3>16</NOTA3>
+            </ALUMNO>
+        </ALUMNOS>
+    </COLEGIO>
+</DATA>

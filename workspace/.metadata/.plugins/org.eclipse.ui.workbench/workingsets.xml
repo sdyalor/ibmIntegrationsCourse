@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1579103391957_1" label="[myapp2]" name="[myapp2]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/myapp2" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1579103408812_2" label="[myall]" name="[myall]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/myall" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1579103587781_3" label="[MFP_myapp]" name="[MFP_myapp]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MFP_myapp" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1579108164159_4" label="[fromSchoolsGetMinMax]" name="[fromSchoolsGetMinMax]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fromSchoolsGetMinMax" type="4"/>
+</workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1579123219588_5" label="[loadOperations]" name="[loadOperations]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/loadOperations" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1579102319384_0" label="Window Working Set" name="Aggregate for window 1579102319383"/>
+</workingSetManager>

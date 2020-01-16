@@ -1,0 +1,87 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		SET OutputRoot = InputRoot;
+		-- CALL CopyMessageHeaders();
+		-- CALL CopyEntireMessage();
+--		DECLARE cadena CHARACTER '';
+		--SET cadena = CAST (InputRoot.BLOB.BLOB AS CHARACTER CCSID InputRoot.Properties.CodedCharSetId);
+		--SET Environment.cadena = cadena;
+		
+--		SET OutputRoot.Properties = InputRoot.Properties;
+	--	SET OutputRoot.MQMD = InputRoot.MQMD;
+		
+		CREATE LASTCHILD OF OutputRoot DOMAIN 'JSON' NAME 'JSON';
+		CREATE LASTCHILD OF OutputRoot.JSON NAME 'Data';
+		/*
+		CREATE LASTCHILD OF OutputRoot.JSON.Data NAME 'Nombre';
+		CREATE LASTCHILD OF OutputRoot.JSON.Data NAME 'ApellidoPaterno';
+		CREATE LASTCHILD OF OutputRoot.JSON.Data NAME 'ApellidoMaterno';
+		SET OutputRoot.JSON.Data.Nombre = SUBSTRING(cadena FROM 0 FOR 20);
+		SET OutputRoot.JSON.Data.ApellidoPaterno = SUBSTRING(cadena FROM 20 FOR 20);
+		SET OutputRoot.JSON.Data.ApellidoMaterno = SUBSTRING(cadena FROM 40 FOR 20);
+	*/	
+		
+		--CREATE FIELD OutputRoot.JSON.Data IDENTITY(JSON.Array)Data;
+		
+		
+/*		
+		SET OutputRoot.JSON.Data.Item[1].Nam1 = 'val1';
+		SET OutputRoot.JSON.Data.Item[1].Num1 = 9999;
+		SET OutputRoot.JSON.Data.Item[2].Nam2 = 'val2';
+		SET OutputRoot.JSON.Data.Item[2].Num2 = 2;
+		SET OutputRoot.JSON.Data.Item[3].Nombre = FIELDVALUE(InputRoot.XMLNSC.DATA.ALUMNO1.(XMLNSC.Field)NOMBRE);
+		
+		DECLARE notas ROW;
+		DECLARE nota1 CHARACTER;
+		DECLARE nota2 CHARACTER;
+		DECLARE nota3 CHARACTER;
+		SET nota1 = '0';
+		SET nota2 = '0';
+		SET nota3 = '0';
+		SET notas.nota1 = CAST (FIELDVALUE(InputRoot.XMLNSC.DATA.ALUMNO1.(XMLNSC.Field)NOTA1) AS INT);
+		SET notas.nota2 = CAST (FIELDVALUE(InputRoot.XMLNSC.DATA.ALUMNO1.(XMLNSC.Field)NOTA2) AS INT);
+		SET notas.nota3 = CAST (FIELDVALUE(InputRoot.XMLNSC.DATA.ALUMNO1.(XMLNSC.Field)NOTA3) AS INT);
+		SET OutputRoot.JSON.Data.Item[3].Promedio = (notas.nota1+notas.nota2+notas.nota3)/(3);
+		*/
+/*	
+		SET notas.nota1 = '10';
+		SET notas.nota2 = '15';
+		SET notas.nota3 = '11';
+
+		SET OutputRoot.JSON.Data.Item[3].Promedio = /*(10+15+11)/3;*/
+		(
+		CAST(notas.nota1 AS DECIMAL) +
+		CAST(notas.nota2 AS DECIMAL) +
+		CAST(notas.nota3 AS DECIMAL)
+		)/3;
+		SET OutputRoot.JSON.Data.Item[3].nota1 = notas.nota1;
+		SET OutputRoot.JSON.Data.Item[3].nota2 = notas.nota2; 
+		SET OutputRoot.JSON.Data.Item[3].nota3 = notas.nota3; 
+	
+*/		DECLARE maximo INTEGER 0;
+		DECLARE ValorPromedio INTEGER 0;
+		DECLARE ValorMaximo INTEGER 0;
+		DECLARE ValorMinimo INTEGER 0;
+		
+		DECLARE refIn REFERENCE TO InputRoot.XMLNSC.DATA;
+		MOVE refIn FIRSTCHILD;
+		
+		WHILE LASTMOVE(refIn)
+		
+		
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
