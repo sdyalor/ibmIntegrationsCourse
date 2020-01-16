@@ -50,3 +50,6 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -showlocation -product c
 
 !ENTRY net.sourceforge.vrapper.eclipse 1 0 2020-01-16 11:38:20.335
 !MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2020-01-16 12:07:31.271
+!MESSAGE No .vrapperrc or _vrapperrc found.

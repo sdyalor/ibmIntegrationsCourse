@@ -12,3 +12,25 @@ https://www.ibm.com/support/knowledgecenter/SSMKHH_9.0.0/com.ibm.etools.mft.doc/
 
 
 mqsireportproperties BRKTEST1 -e EG_01 -o HTTPSConnector -r
+
+https://www.ibm.com/support/knowledgecenter/es/SSMKHH_9.0.0/com.ibm.etools.mft.doc/ac16862_.htm
+
+mqsisetdbparms BRK01 -n odbc::DBBRK -u USRBRK -p USRBRK
+mqsicvp INODE -n myDsn
+
+
+mqsisetdbparms BRKTEST1 -n odbc::ACE_SAMPLE -u ACE_SAMPLE -p acesample2019
+mqsicvp BRKTEST1 -n ACE_SAMPLE
+
+
+
+
+
+mqsireportproperties BROKERH1 -e EG_HU_RENIECREST -o HTTPConnector -r
+mqsireportproperties myBroker -e default -o HTTPSConnector -r
+mqsireportproperties myBroker -e default -o HTTPSConnector -r
+
+
+
+SET OutputLocalEnvironment.Destination.HTTP.RequestIdentifier =
+erddtcfyvgubhnjkm
