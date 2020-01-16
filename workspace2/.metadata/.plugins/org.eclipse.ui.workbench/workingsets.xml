@@ -6,5 +6,8 @@
 <workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1579185134892_2" label="[MFP_myapp]" name="[MFP_myapp]">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MFP_myapp" type="4"/>
 </workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1579190161255_3" label="[MFP_REST]" name="[MFP_REST]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MFP_REST" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1579150923364_0" label="Window Working Set" name="Aggregate for window 1579150923364"/>
 </workingSetManager>
