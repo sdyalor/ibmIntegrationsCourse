@@ -1,0 +1,18 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		-- CALL CopyMessageHeaders();
+		-- CALL CopyEntireMessage();
+		DECLARE requestIdentifier CHARACTER;
+		--SET requestIdentifier = InputLocalEnvironment.Destination.HTTP.RequestIdentifier;
+		SET requestIdentifier = 'http://localhost:7080/crud/producto';
+     	SET OutputLocalEnvironment.Destination.HTTP.RequestIdentifier = requestIdentifier;
+     	
+		DECLARE refData REFERENCE TO InputRoot.XMLNSC.DATA;
+		
+		SET OutputRoot.Properties = InputRoot.Properties;
+		CREATE LASTCHILD OF OutputRoot DOMAIN 'JSON' NAME 'JSON';
+		CREATE LASTCHILD OF OutputRoot.JSON NAME 'Data';
+		
+		SET OutputLocalEnvironment.Destination.HTTP.RequestURL = 'http://localhost:7080/crud/producto';
+		RETURN TRUE;
+	END;

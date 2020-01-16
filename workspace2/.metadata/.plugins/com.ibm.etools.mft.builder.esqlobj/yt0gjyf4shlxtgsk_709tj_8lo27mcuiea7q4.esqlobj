@@ -1,0 +1,28 @@
+CREATE COMPUTE MODULE mF_myFirstClientRest_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputRoot.Properties = InputRoot.Properties;
+		CREATE LASTCHILD OF OutputRoot DOMAIN 'XMLNSC' NAME 'XMLNSC';
+		CREATE LASTCHILD OF OutputRoot.XMLNSC NAME 'Data';
+		
+		
+				DECLARE refData REFERENCE TO InputRoot.JSON.DATA;
+				DECLARE refJsonData REFERENCE TO OutputRoot.JSON.Data;
+				SET Environment.operacion = refData.OPERACION; -- to execute url
+				
+                SET refJsonData.OPERACION = refData.OPERACION;
+                SET refJsonData.COD_PRODUCTO = refData.COD_PRODUCTO;
+                SET refJsonData.NOM_PRODUCTO = refData.NOM_PRODUCTO;
+                SET refJsonData.CANTIDAD = refData.CANTIDAD;
+                SET refJsonData.PRECIO_UNIT = refData.PRECIO_UNIT;
+/*                
+                WHILE LASTMOVE(refData) DO
+					CREATE LASTCHILD OF refJsonData NAME CAST();
+					MOVE siblingRef NEXTSIBLING;
+                END WHILE;
+*/               
+		
+		
+		RETURN TRUE;
+	END;
+END MODULE;

@@ -1,0 +1,29 @@
+CREATE COMPUTE MODULE mF_myFirstClientRest_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		-- CALL CopyMessageHeaders();
+		-- CALL CopyEntireMessage();
+		DECLARE requestIdentifier CHARACTER;
+		--SET requestIdentifier = InputLocalEnvironment.Destination.HTTP.RequestIdentifier;
+		SET requestIdentifier = 'http://localhost:7080/crud/producto';
+     	SET OutputLocalEnvironment.Destination.HTTP.RequestIdentifier = requestIdentifier;
+     	
+		
+		SET OutputRoot.Properties = InputRoot.Properties;
+		CREATE LASTCHILD OF OutputRoot DOMAIN 'JSON' NAME 'JSON';
+		CREATE LASTCHILD OF OutputRoot.JSON NAME 'Data';
+		
+		SET OutputLocalEnvironment.Destination.HTTP.RequestURL = 'http://localhost:7080/crud/producto';
+		
+		
+				DECLARE refData REFERENCE TO InputRoot.XMLNSC.DATA;
+		
+                WHILE LASTMOVE(refData) DO
+					CREATE LASTCHILD OF OutputRoot.JSON NAME 'Data';
+					MOVE siblingRef NEXTSIBLING;
+                END WHILE;
+                
+		
+		RETURN TRUE;
+	END;
+END MODULE;

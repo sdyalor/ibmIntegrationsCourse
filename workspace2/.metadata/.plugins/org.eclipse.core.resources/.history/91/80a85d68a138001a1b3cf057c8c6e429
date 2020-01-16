@@ -1,0 +1,59 @@
+BROKER SCHEMA pe.com.arqsoft
+
+
+CREATE COMPUTE MODULE mF_myFirstClientRest_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		-- CALL CopyMessageHeaders();
+		-- CALL CopyEntireMessage();
+		DECLARE requestIdentifier CHARACTER;
+		--SET requestIdentifier = InputLocalEnvironment.Destination.HTTP.RequestIdentifier;
+		SET requestIdentifier = 'http://localhost:7080/crud/producto';
+     	SET OutputLocalEnvironment.Destination.HTTP.RequestIdentifier = requestIdentifier;
+     	
+		
+		SET OutputRoot.Properties = InputRoot.Properties;
+		CREATE LASTCHILD OF OutputRoot DOMAIN 'JSON' NAME 'JSON';
+		CREATE LASTCHILD OF OutputRoot.JSON NAME 'Data';
+		
+		SET OutputLocalEnvironment.Destination.HTTP.RequestURL = 'http://localhost:7080/crud/producto';
+		
+		
+		DECLARE refData REFERENCE TO InputRoot.XMLNSC.DATA;
+		
+                DECLARE siblingRef REFERENCE TO root;
+                
+		        DECLARE firstArrayElementRef REFERENCE TO root;
+                DECLARE arraySize INTEGER 0;
+
+                WHILE LASTMOVE(refData) DO
+                         MOVE firstArrayElementRef NEXTSIBLING;
+                       
+                        -- Process any child elements first
+                        DECLARE firstChildRef REFERENCE TO siblingRef;
+                        MOVE firstChildRef FIRSTCHILD;
+                        IF LASTMOVE(firstChildRef) THEN
+                                CALL createJSONArrays(firstChildRef);
+                        END IF;
+
+                        -- IF this sibling's name is different from the previous one.
+                        IF FIELDNAME(siblingRef) = FIELDNAME(firstArrayElementRef) THEN
+                                SET arraySize = arraySize + 1;
+                        ELSE
+                                -- IF there was a sequence of two or more siblings with the same name
+                                IF arraySize > 1 THEN
+                                        CALL createJSONArray(firstArrayElementRef, arraySize);
+                                END IF;                         
+
+                                -- start scanning for a new array
+                                MOVE firstArrayElementRef TO siblingRef;
+                                SET arraySize = 1;
+                        END IF;
+                       
+                        MOVE siblingRef NEXTSIBLING;
+                END WHILE;
+                
+		
+		RETURN TRUE;
+	END;
+END MODULE;

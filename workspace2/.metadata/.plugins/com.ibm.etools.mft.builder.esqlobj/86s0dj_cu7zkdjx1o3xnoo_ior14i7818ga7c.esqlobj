@@ -1,0 +1,35 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		-- CALL CopyMessageHeaders();
+		-- CALL CopyEntireMessage();
+		DECLARE requestIdentifier CHARACTER;
+		--SET requestIdentifier = InputLocalEnvironment.Destination.HTTP.RequestIdentifier;
+		SET requestIdentifier = 'http://localhost:7080/crud/producto';
+     	SET OutputLocalEnvironment.Destination.HTTP.RequestIdentifier = requestIdentifier;
+     	
+		
+		SET OutputRoot.Properties = InputRoot.Properties;
+		CREATE LASTCHILD OF OutputRoot DOMAIN 'JSON' NAME 'JSON';
+		CREATE LASTCHILD OF OutputRoot.JSON NAME 'Data';
+		
+		SET OutputLocalEnvironment.Destination.HTTP.RequestURL = 'http://localhost:7080/crud/producto';
+		
+		
+				DECLARE refData REFERENCE TO InputRoot.XMLNSC.DATA;
+				DECLARE refJsonData REFERENCE TO OutputRoot.JSON.Data;
+				SET Environment.operacion = refData.OPERACION; -- to execute url
+				
+                SET refJsonData.OPERACION = refData.OPERACION;
+                SET refJsonData.COD_PRODUCTO = refData.OPERACION;
+                SET refJsonData.NOM_PRODUCTO = refData.OPERACION;
+                SET refJsonData.CANTIDAD = refData.OPERACION;
+                SET refJsonData.PRECIO_UNIT = refData.OPERACION;
+/*                
+                WHILE LASTMOVE(refData) DO
+					CREATE LASTCHILD OF refJsonData NAME CAST();
+					MOVE siblingRef NEXTSIBLING;
+                END WHILE;
+*/               
+		
+		RETURN TRUE;
+	END;

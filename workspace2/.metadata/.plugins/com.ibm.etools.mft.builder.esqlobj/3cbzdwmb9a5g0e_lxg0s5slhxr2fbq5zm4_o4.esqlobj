@@ -1,0 +1,14 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		SET OutputRoot.Properties = InputRoot.Properties;
+		CREATE LASTCHILD OF OutputRoot DOMAIN 'XMLNSC' NAME 'XMLNSC';
+		CREATE LASTCHILD OF OutputRoot.XMLNSC NAME 'Data';
+		
+		
+				DECLARE refData REFERENCE TO InputRoot.JSON.Data;
+				DECLARE refJsonData REFERENCE TO OutputRoot.XMLNSC.Data;
+				SET Environment.operacion = refData.OPERACION; -- to execute url
+                SET refJsonData = refData;
+		RETURN TRUE;
+	END;
+
