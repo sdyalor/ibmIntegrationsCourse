@@ -1,0 +1,91 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		DECLARE requestIdentifier CHARACTER;
+	/*
+	 * set uri for Response
+	 */	
+		DECLARE iLocalEnvRequestId REFERENCE TO InputLocalEnvironment.Destination.HTTP.RequestIdentifier;
+		DECLARE oLocalEnvRequestId REFERENCE TO OutputLocalEnvironment.Destination.HTTP.RequestIdentifier;
+		SET oLocalEnvRequestId = iLocalEnvRequestId;	
+		
+	/*
+	 * crete json tree
+	 */
+		
+     	DECLARE testCode CHARACTER;
+     	DECLARE testCodeRead CHARACTER;
+     	SET testCode = '224';
+     	--CALL deleteProduct(InputRoot.JSON.Data.COD_PRODUCTO,Environment.Producto[]);
+     	SET testCodeRead = 'AS12';
+---     	CALL readProduct(InputRoot.JSON.Data.COD_PRODUCTO, Environment.Producto[]);
+		CREATE LASTCHILD OF OutputRoot DOMAIN 'JSON' NAME 'JSON';
+		CREATE LASTCHILD OF OutputRoot.JSON NAME 'Data';
+		CREATE LASTCHILD OF OutputRoot.JSON.Data NAME 'Productos';
+--     	CALL readProduct(InputRoot.JSON.Data.COD_PRODUCTO, OutputRoot.JSON.Data.Productos[]);
+--THISWORKS DON'T TOUCH!!!
+--     	CALL readProduct('227', OutputRoot.JSON.Data.Productos[]);
+--		CALL createProduct ('001','pancito2','0','10',OutputRoot.JSON.Data.Productos[]);
+--   	CALL updateProduct('001','pancito2','999','10',OutputRoot.JSON.Data.Productos[]);
+DECLARE operacion CHARACTER;
+DECLARE cod_producto CHARACTER;
+DECLARE nom_producto CHARACTER;
+DECLARE cantidad CHARACTER;
+DECLARE precio_unit CHARACTER;
+
+SET operacion = InputRoot.JSON.Data.OPERACION;
+SET cod_producto = InputRoot.JSON.Data.COD_PRODUCTO;
+SET nom_producto = InputRoot.JSON.Data.NOM_PRODUCTO;
+SET cantidad = InputRoot.JSON.Data.CANTIDAD;
+SET precio_unit = InputRoot.JSON.Data.PRECIO_UNIT;
+
+DECLARE operation CHARACTER;
+SET operation = 'create';
+CASE operacion
+  WHEN 'create' THEN
+	CALL createProduct (cod_producto,nom_producto,cantidad,precio_unit,OutputRoot.JSON.Data.Productos[]);
+  WHEN 'read' THEN
+	CALL readProduct (cod_producto,OutputRoot.JSON.Data.Productos[]);
+  WHEN 'update' THEN
+	CALL updateProduct (cod_producto,nom_producto,cantidad,precio_unit,OutputRoot.JSON.Data.Productos[]);
+  WHEN 'delete' THEN
+	CALL deleteProduct (cod_producto,OutputRoot.JSON.Data.Productos[]);
+ELSE
+	SET operation = 'unknown';
+END CASE;
+		RETURN TRUE;
+		
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+	--delete
+	CREATE PROCEDURE deleteProduct (IN codigo_producto CHARACTER)
+	  LANGUAGE DATABASE
+	  DYNAMIC RESULT SETS 1
+	  EXTERNAL NAME "ACE_SAMPLE.PKG_CONTROL.SP_DELETE_PROD";
+	--create  
+	CREATE PROCEDURE createProduct (IN codigo_producto CHARACTER, IN nombre_producto CHARACTER, IN cantidad_producto CHARACTER, IN precio_u_producto CHARACTER)
+	  LANGUAGE DATABASE
+	  DYNAMIC RESULT SETS 1
+	  EXTERNAL NAME "ACE_SAMPLE.PKG_CONTROL.SP_INSERT_PROD";
+	--update  
+	CREATE PROCEDURE updateProduct (IN codigo_producto CHARACTER, IN nombre_producto CHARACTER, IN cantidad_producto CHARACTER, IN precio_u_producto CHARACTER)
+	  LANGUAGE DATABASE
+	  DYNAMIC RESULT SETS 1
+	  EXTERNAL NAME "ACE_SAMPLE.PKG_CONTROL.SP_UPDATE_PROD";
+	--read PROCEDURE SP_READ_PROD (P_COD_PROD IN INTEGER, C_PARAMETER OUT SYS_REFCURSOR)
+	CREATE PROCEDURE readProduct (IN codigo_producto CHARACTER)
+	  LANGUAGE DATABASE
+	  DYNAMIC RESULT SETS 1
+	  EXTERNAL NAME "ACE_SAMPLE.PKG_CONTROL.SP_READ_PROD";

@@ -1,0 +1,36 @@
+BROKER SCHEMA pe.com.arqsoft
+
+
+CREATE COMPUTE MODULE REST_format_message_Compute
+		CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		DECLARE requestIdentifier CHARACTER;
+	/*
+	 * set uri for Response
+	 */	
+		DECLARE iLocalEnvRequestId REFERENCE TO InputLocalEnvironment.Destination.HTTP.RequestIdentifier;
+		DECLARE oLocalEnvRequestId REFERENCE TO OutputLocalEnvironment.Destination.HTTP.RequestIdentifier;
+		SET oLocalEnvRequestId = iLocalEnvRequestId;	
+		
+	/*
+	 * crete json tree
+	 */
+	 	CREATE LASTCHILD OF OutputRoot DOMAIN 'JSON' NAME 'JSON';
+	 	CREATE LASTCHILD OF OutputRoot.JSON NAME 'Data';
+	/*
+	 * create reference to input body from Request
+	 */
+	 
+	 	DECLARE reqJsonBody REFERENCE TO InputRoot.JSON;
+	 	DECLARE resJsonBody REFERENCE TO OutputRoot.JSON;
+	    CALL readProduct (reqJsonBody.ID,[]);
+		RETURN TRUE;
+		
+	END;
+
+	--read PROCEDURE SP_READ_PROD (P_COD_PROD IN INTEGER, C_PARAMETER OUT SYS_REFCURSOR)
+	CREATE PROCEDURE getFormatCode (IN formatID INT)
+	  LANGUAGE DATABASE
+	  DYNAMIC RESULT SETS 1
+	  EXTERNAL NAME "ACE_SAMPLE.PKG_CONTROL.GET_CODE_BY_ID";
+END MODULE;

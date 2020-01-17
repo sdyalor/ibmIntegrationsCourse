@@ -1,0 +1,64 @@
+!SESSION 2020-01-16 17:29:39.727 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.fullversion=8.0.5.35 - pwa6480sr5fp35ifix-20190524_01(SR5 FP35+IJ15979)
+JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20190524_417294 (JIT enabled, AOT enabled)
+OpenJ9   - 321e430
+OMR      - 16b77d7
+IBM      - 72459d3
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_MX
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2020-01-16 17:29:48.484
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.ui 2 2 2020-01-16 17:29:52.895
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2020-01-16 17:29:52.897
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2020-01-16 17:29:52.898
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY com.ibm.mq.runtime 1 0 2020-01-16 17:29:54.771
+!MESSAGE 
+
+!ENTRY com.ibm.mq.runtime 1 0 2020-01-16 17:29:54.771
+!MESSAGE C:\Program Files\IBM\ACE\11.0.0.7\tools>mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2020-01-16 17:29:55.144
+!MESSAGE BIP8071I: El mandato ha finalizado correctamente. C:\Program Files (x86)\IBM\WebSphere MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2020-01-16 17:29:55.145
+!MESSAGE MQ Install location found:C:/Program Files (x86)/IBM/WebSphere MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2020-01-16 17:29:55.145
+!MESSAGE 
+
+!ENTRY com.ibm.etools.mft.pattern.community 4 0 2020-01-16 17:29:55.342
+!MESSAGE Connection to the URL https://ot4i.github.io/ace-patterns/es/repo_metadata.json failed. Response code: 404
+
+!ENTRY org.eclipse.ui 2 2 2020-01-16 17:44:43.769
+!MESSAGE Invalid property category path: org.eclipse.cdt.managedbuilder.ui.properties.Page_head_build (bundle: org.eclipse.cdt.ui, propertyPage: org.eclipse.cdt.managedbuilder.ui.properties.BuildLogPreferencePage)
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2020-01-16 17:46:09.008
+!MESSAGE 
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2020-01-16 17:53:51.200
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2020-01-16 19:44:33.567
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2020-01-16 20:00:16.739
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2020-01-16 20:01:47.089
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2020-01-16 20:02:11.273
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2020-01-16 20:16:08.602
+!MESSAGE No .vrapperrc or _vrapperrc found.
