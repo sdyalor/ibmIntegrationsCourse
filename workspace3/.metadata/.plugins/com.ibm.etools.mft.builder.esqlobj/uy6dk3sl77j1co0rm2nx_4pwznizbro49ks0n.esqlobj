@@ -1,0 +1,44 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		/*
+		 *From Queue
+		 */
+		-- SET BINARY DATA AS CHARACTER
+		DECLARE Message CHARACTER CAST(InputRoot.BLOB.BLOB AS CHARACTER CCSID InputProperties.CodedCharSetId); 
+		
+		-- GET ID FROM Message
+		DECLARE ID CHARACTER SUBSTRING(Message AFTER 'CODE:' FOR 1);
+		-- GET USER NAME FROM Message
+		DECLARE NAME CHARACTER SUBSTRING('Hello World!' FROM 0 FOR 20);
+
+		/*
+		 *From DB
+		 */
+		DECLARE CODE ROW;
+		-- LIST CONSTRUCTOR
+		SET CODE.LIST[] = LIST{ROW('RANDOM', 'DUMMY', 'COLUMNS','TEST')};
+	    CALL getFormatCode(ID,CODE.LIST[]);
+	    
+	    /*
+	     *SAVE ROW IN Environment
+	     */
+	     
+	    SET Environment.ROW = CODE;
+	    SET OutputLocalEnvironment.ROW = CODE;
+	    
+	    /*
+	     *SAVE JSON TO ROOT
+	     */ 
+--	    CREATE LASTCHILD OF OutputRoot DOMAIN 'JSON' NAME 'JSON';
+--	 	CREATE LASTCHILD OF OutputRoot.JSON NAME 'Data';
+--		SET OutputRoot.JSON.Data.ROOT = 'string';
+--	    PROPAGATE TO TERMINAL('out') DELETE DEFAULT;
+		RETURN TRUE;
+		
+	END;
+
+	CREATE PROCEDURE getFormatCode (IN formatID CHARACTER)
+	  LANGUAGE DATABASE
+	  DYNAMIC RESULT SETS 1
+	  EXTERNAL NAME "ACE_SAMPLE.PKG_CONTROL.SP_READ_MESSAGE";
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ComIbmCompute.msgnode="ComIbmCompute.msgnode" xmlns:ComIbmMQInput.msgnode="ComIbmMQInput.msgnode" xmlns:ComIbmMQOutput.msgnode="ComIbmMQOutput.msgnode" xmlns:ComIbmTrace.msgnode="ComIbmTrace.msgnode" xmlns:ComIbmWSRequest.msgnode="ComIbmWSRequest.msgnode" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:eflow="http://www.ibm.com/wbi/2005/eflow" xmlns:utility="http://www.ibm.com/wbi/2005/eflow_utility" nsURI="flujo_xml_json_blob.msgflow" nsPrefix="flujo_xml_json_blob.msgflow">
+  <eClassifiers xmi:type="eflow:FCMComposite" name="FCMComposite_1">
+    <eSuperTypes href="http://www.ibm.com/wbi/2005/eflow#//FCMBlock"/>
+    <translation xmi:type="utility:TranslatableString" key="flujo_xml_json_blob" bundleName="flujo_xml_json_blob" pluginId="XML_JSON"/>
+    <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/XML_JSON/icons/full/obj16/flujo_xml_json_blob.gif"/>
+    <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/XML_JSON/icons/full/obj30/flujo_xml_json_blob.gif"/>
+    <composition>
+      <nodes xmi:type="ComIbmMQInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="77,200" queueName="QL.CADENA.REQ.02">
+        <translation xmi:type="utility:ConstantString" string="QL.CADENA.REQ.02"/>
+      </nodes>
+      <nodes xmi:type="ComIbmMQOutput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="1066,190" queueName="QL.SALIDA.RES.01">
+        <translation xmi:type="utility:ConstantString" string="QL.SALIDA.RES.01"/>
+      </nodes>
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="213,261" destination="file" filePath="D:\APP_LOGS\xml_json\Log1.log" pattern="MENSAJE ENTRADA&#xD;&#xA;&#xD;&#xA;VER ROOT: ${Root}&#xD;&#xA;VER LOCA_ENVIRONMENT: ${LocalEnvironment}&#xD;&#xA;VER ENVIRONMENT: ${Environment}">
+        <translation xmi:type="utility:ConstantString" string="XML_JSON LOG1"/>
+      </nodes>
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="944,275" destination="file" filePath="D:\APP_LOGS\xml_json\Log4.log" pattern="MENSAJE SALIDA FINAL&#xD;&#xA;&#xD;&#xA;VER ROOT: ${Root}&#xD;&#xA;VER LOCA_ENVIRONMENT: ${LocalEnvironment}&#xD;&#xA;VER ENVIRONMENT: ${Environment}">
+        <translation xmi:type="utility:ConstantString" string="XML_JSON LOG4"/>
+      </nodes>
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_5" location="451,266" destination="file" filePath="D:\APP_LOGS\xml_json\Log2.log" pattern="MENSAJE ENTRADA RES &#xD;&#xA;&#xD;&#xA;VER ROOT: ${Root}&#xD;&#xA;VER LOCA_ENVIRONMENT: ${LocalEnvironment}&#xD;&#xA;VER ENVIRONMENT: ${Environment}">
+        <translation xmi:type="utility:ConstantString" string="XML_JSON LOG2"/>
+      </nodes>
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_6" location="698,270" destination="file" filePath="D:\APP_LOGS\xml_json\Log3.log" pattern="MENSAJE SALIDA REST&#xD;&#xA;&#xD;&#xA;VER ROOT: ${Root}&#xD;&#xA;VER LOCA_ENVIRONMENT: ${LocalEnvironment}&#xD;&#xA;VER ENVIRONMENT: ${Environment}">
+        <translation xmi:type="utility:ConstantString" string="XML_JSON LOG3"/>
+      </nodes>
+      <nodes xmi:type="ComIbmWSRequest.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_7" location="569,193" URLSpecifier="http://test/*" httpVersion="1.1" protocol="TLS">
+        <translation xmi:type="utility:ConstantString" string="HTTP Request"/>
+      </nodes>
+      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_8" location="346,199" dataSource="ACE_SAMPLE" computeExpression="esql://routine/#flujo_xml_json_blob_Compute.Main" computeMode="destinationAndMessage">
+        <translation xmi:type="utility:ConstantString" string="Compute"/>
+      </nodes>
+      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_9" location="842,197" computeExpression="esql://routine/#flujo_xml_json_blob_Compute1.Main" computeMode="destinationAndMessage">
+        <translation xmi:type="utility:ConstantString" string="Compute1"/>
+      </nodes>
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_10" location="201,123" destination="file" filePath="D:\APP_LOGS\xml_json\ErrorXML_JSON.log" pattern="MENSAJE ERROR&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;VER Error: ${ExceptionList}">
+        <translation xmi:type="utility:ConstantString" string="ERROR XML_JSON"/>
+      </nodes>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_1" targetNode="FCMComposite_1_3" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_2" targetNode="FCMComposite_1_8" sourceNode="FCMComposite_1_3" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_3" targetNode="FCMComposite_1_5" sourceNode="FCMComposite_1_8" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_5" targetNode="FCMComposite_1_7" sourceNode="FCMComposite_1_5" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_6" targetNode="FCMComposite_1_6" sourceNode="FCMComposite_1_7" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_7" targetNode="FCMComposite_1_9" sourceNode="FCMComposite_1_6" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_8" targetNode="FCMComposite_1_4" sourceNode="FCMComposite_1_9" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_9" targetNode="FCMComposite_1_2" sourceNode="FCMComposite_1_4" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_10" targetNode="FCMComposite_1_10" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.failure" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_11" targetNode="FCMComposite_1_10" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.catch" targetTerminalName="InTerminal.in"/>
+    </composition>
+    <propertyOrganizer/>
+    <stickyBoard/>
+  </eClassifiers>
+</ecore:EPackage>

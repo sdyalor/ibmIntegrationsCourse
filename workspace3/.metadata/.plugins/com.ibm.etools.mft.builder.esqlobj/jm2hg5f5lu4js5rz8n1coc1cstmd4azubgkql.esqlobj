@@ -1,0 +1,60 @@
+CREATE COMPUTE MODULE flujo_xml_json_blob_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+			
+      DECLARE cadena CHARACTER '';
+      DECLARE nombre CHARACTER '';
+      DECLARE pk CHARACTER '';
+      
+      SET Environment.Properties = InputProperties;
+      SET Environment.MQMD = InputRoot.MQMD;
+      SET OutputRoot.Properties = Environment.Properties;
+      SET OutputRoot.MQMD = Environment.MQMD;
+      
+      
+      SET cadena = CAST(InputRoot.BLOB.BLOB AS CHARACTER CCSID InputProperties.CodedCharSetId);
+      SET nombre = SUBSTRING( cadena FROM 10 FOR 31 );
+      SET pk = SUBSTRING( cadena FROM 43 FOR 1 );
+      
+      SET Environment.nombre = nombre;
+      SET Environment.pk = pk;
+      
+      CALL sp_read_codigo(CAST(pk AS INTEGER),Environment.Codes[]);
+      SET Environment.code = Environment.Codes.CODE;
+      
+      IF pk ='1' THEN
+	      CREATE LASTCHILD OF OutputRoot DOMAIN 'XMLNSC' NAME 'XMLNSC';
+		  CREATE LASTCHILD OF OutputRoot.XMLNSC NAME 'Data';
+		  DECLARE refOut REFERENCE TO  OutputRoot.XMLNSC.Data;
+		  
+		  SET refOut.codigo = CAST(pk AS INTEGER);
+	      SET refOut.nomb_desc = Environment.code;
+	      SET refOut.nombre = Environment.nombre;
+	      
+	      SET OutputLocalEnvironment.Destination.HTTP.RequestURL = 'http://localhost:7080/test/xml';
+		
+      END IF;
+      
+      IF pk ='2' THEN
+	      CREATE LASTCHILD OF OutputRoot DOMAIN 'JSON' NAME 'JSON';
+		  CREATE LASTCHILD OF OutputRoot.JSON NAME 'Data';
+		  DECLARE refOut REFERENCE TO  OutputRoot.JSON.Data;
+		  
+		  SET refOut.codigo = CAST(pk AS INTEGER);
+	      SET refOut.nomb_desc = Environment.code;
+	      SET refOut.nombre = Environment.nombre;
+	      
+	      SET OutputLocalEnvironment.Destination.HTTP.RequestURL = 'http://localhost:7080/test/json';
+		
+      END IF;
+      
+      	
+      
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE sp_read_codigo (IN cadena INTEGER )
+	  LANGUAGE DATABASE
+	  DYNAMIC RESULT SETS 1
+	  EXTERNAL NAME "ace_sample.pkg_control.sp_read_message";
+END MODULE;

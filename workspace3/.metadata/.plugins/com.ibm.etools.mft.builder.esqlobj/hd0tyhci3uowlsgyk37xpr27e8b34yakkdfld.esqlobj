@@ -1,0 +1,31 @@
+CREATE COMPUTE MODULE rawTo_1Name_50_Table_Compute3
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		/*
+		 *From Queue
+		 */
+		DECLARE ID CHARACTER;
+		SET ID = '1';
+		/*
+		 *From DB
+		 */
+		DECLARE CODE ROW;
+		-- LIST CONSTRUCTOR
+		SET CODE.LIST[] = LIST{ROW('RANDOM', 'DUMMY', 'COLUMNS')};
+	    CALL getFormatCode(ID,CODE.LIST[]);
+	    
+	    
+	    /*
+	     *SAVE ROW IN Environment
+	     */
+	    SET Environment.ROW = CODE;
+	    
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE getFormatCode (IN formatID CHARACTER)
+	  LANGUAGE DATABASE
+	  DYNAMIC RESULT SETS 1
+	  EXTERNAL NAME "ACE_SAMPLE.PKG_CONTROL.SP_READ_MESSAGE";
+
+END MODULE;

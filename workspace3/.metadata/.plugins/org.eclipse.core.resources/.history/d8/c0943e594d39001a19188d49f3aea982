@@ -1,0 +1,44 @@
+BROKER SCHEMA pe.com.arqsoft
+
+
+CREATE COMPUTE MODULE rawTo_1Name_50_Table_Compute3
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		/*
+		 *From Queue
+		 */
+		DECLARE ID CHARACTER;
+		SET ID = '1';
+		/*
+		 *From DB
+		 */
+		DECLARE CODE ROW;
+		-- LIST CONSTRUCTOR
+		SET CODE.LIST[] = LIST{ROW('RANDOM', 'DUMMY', 'COLUMNS','TEST')};
+	    CALL getFormatCode(ID,CODE.LIST[]);
+	    
+	    
+	    /*
+	     *SAVE ROW IN Environment
+	     */
+	     
+	    SET Environment.ROW = CODE;
+	    SET OutputLocalEnvironment.ROW = CODE;
+	    
+	    /*
+	     *SAVE JSON TO ROOT
+	     */ 
+	    CREATE LASTCHILD OF OutputRoot DOMAIN 'JSON' NAME 'JSON';
+	 	CREATE LASTCHILD OF OutputRoot.JSON NAME 'Data';
+		SET OutputRoot.JSON.Data.ROOT = 'string';
+	    PROPAGATE TO TERMINAL('out') DELETE DEFAULT;
+		RETURN TRUE;
+		
+	END;
+
+	CREATE PROCEDURE getFormatCode (IN formatID CHARACTER)
+	  LANGUAGE DATABASE
+	  DYNAMIC RESULT SETS 1
+	  EXTERNAL NAME "ACE_SAMPLE.PKG_CONTROL.SP_READ_MESSAGE";
+
+END MODULE;

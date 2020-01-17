@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ComIbmCompute.msgnode="ComIbmCompute.msgnode" xmlns:ComIbmMQInput.msgnode="ComIbmMQInput.msgnode" xmlns:ComIbmMQOutput.msgnode="ComIbmMQOutput.msgnode" xmlns:ComIbmTrace.msgnode="ComIbmTrace.msgnode" xmlns:ComIbmWSRequest.msgnode="ComIbmWSRequest.msgnode" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:eflow="http://www.ibm.com/wbi/2005/eflow" xmlns:utility="http://www.ibm.com/wbi/2005/eflow_utility" nsURI="pe/com/arqsoft/rawTo_1Name_50_Table.msgflow" nsPrefix="pe_com_arqsoft_rawTo_1Name_50_Table.msgflow">
+  <eClassifiers xmi:type="eflow:FCMComposite" name="FCMComposite_1">
+    <eSuperTypes href="http://www.ibm.com/wbi/2005/eflow#//FCMBlock"/>
+    <translation xmi:type="utility:TranslatableString" key="rawTo_1Name_50_Table" bundleName="pe/com/arqsoft/rawTo_1Name_50_Table" pluginId="blobSUBSTRING"/>
+    <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/blobSUBSTRING/icons/full/obj16/rawTo_1Name_50_Table.gif"/>
+    <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/blobSUBSTRING/icons/full/obj30/rawTo_1Name_50_Table.gif"/>
+    <composition>
+      <nodes xmi:type="ComIbmMQInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="216,209" queueName="QL.RAWREST.REQ.01" messageDomainProperty="BLOB">
+        <translation xmi:type="utility:ConstantString" string="MQ Input"/>
+      </nodes>
+      <nodes xmi:type="ComIbmMQOutput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="868,197" queueName="QL.RAWREST.RES.01">
+        <translation xmi:type="utility:ConstantString" string="MQ Output"/>
+      </nodes>
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="324,168" destination="file" filePath="C:\Users\userbus\Desktop\Nueva carpeta\ibmIntegrationsCourse\workspace3\REST_CLIENT_IN" pattern="--------------REST IN&#xD;&#xA;--------------REST IN ROOT: ${Root}&#xD;&#xA;--------------REST IN LOCALENVIRONMENT: ${LocalEnvironment}">
+        <translation xmi:type="utility:ConstantString" string="Trace"/>
+      </nodes>
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="319,252" destination="file" filePath="C:\Users\userbus\Desktop\Nueva carpeta\ibmIntegrationsCourse\workspace3\REST_CLIENT_FAIL" pattern="--------------REST IN FAIL: ${ExceptionList}&#xD;&#xA;">
+        <translation xmi:type="utility:ConstantString" string="Trace1"/>
+      </nodes>
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_5" location="424,258" destination="file" filePath="C:\Users\userbus\Desktop\Nueva carpeta\ibmIntegrationsCourse\workspace3\REST_CLIENT_OUT" pattern="--------------REST OUT&#xD;&#xA;--------------REST OUT ROOT: ${Root}&#xD;&#xA;--------------REST OUT  LOCALENVIRONMENT: ${LocalEnvironment}&#xD;&#xA;--------------REST OUT  ENVIRONMENT: ${Environment}">
+        <translation xmi:type="utility:ConstantString" string="Trace2"/>
+      </nodes>
+      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_6" location="390,168" dataSource="ACE_SAMPLE" computeExpression="esql://routine/pe.com.arqsoft#rawTo_1Name_50_Table_Compute3.Main" computeMode="destinationAndMessage">
+        <translation xmi:type="utility:ConstantString" string="request CODE using ID"/>
+      </nodes>
+      <nodes xmi:type="ComIbmWSRequest.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_7" location="556,175" URLSpecifier="http://xd" httpVersion="1.1" protocol="TLS">
+        <translation xmi:type="utility:ConstantString" string="GET TABLE FULL CODE WITH ID"/>
+      </nodes>
+      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_8" location="620,347" computeExpression="esql://routine/pe.com.arqsoft#rawTo_1Name_50_Table_Compute1.Main">
+        <translation xmi:type="utility:ConstantString" string="CONCATENATE RESPONSE WITH MQ INPUT IN JSON PORQUESI"/>
+      </nodes>
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_9" location="749,237" destination="file" filePath="C:\Users\userbus\Desktop\Nueva carpeta\ibmIntegrationsCourse\workspace3\REST_CLIENT_OUT" pattern="--------------REST OUT&#xD;&#xA;--------------REST OUT ROOT: ${Root}&#xD;&#xA;--------------REST OUT  LOCALENVIRONMENT: ${LocalEnvironment}&#xD;&#xA;--------------REST OUT  ENVIRONMENT: ${Environment}">
+        <translation xmi:type="utility:ConstantString" string="Trace3"/>
+      </nodes>
+      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_10" location="388,389" dataSource="ACE_SAMPLE" computeExpression="esql://routine/pe.com.arqsoft#rawTo_1Name_50_Table_Compute4.Main">
+        <translation xmi:type="utility:ConstantString" string="request CODE using ID1"/>
+      </nodes>
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_11" location="538,387" destination="file" filePath="C:\Users\userbus\Desktop\Nueva carpeta\ibmIntegrationsCourse\workspace3\REST_CLIENT_OUT2" pattern="--------------REST OUT&#xD;&#xA;--------------REST OUT ROOT: ${Root}&#xD;&#xA;--------------REST OUT  LOCALENVIRONMENT: ${LocalEnvironment}&#xD;&#xA;--------------REST OUT  ENVIRONMENT: ${Environment}">
+        <translation xmi:type="utility:ConstantString" string="Trace4"/>
+      </nodes>
+      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_12" location="388,471" dataSource="ACE_SAMPLE" computeExpression="esql://routine/pe.com.arqsoft#rawTo_1Name_50_Table_Compute5.Main">
+        <translation xmi:type="utility:ConstantString" string="request CODE using ID2"/>
+      </nodes>
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_13" location="542,469" destination="file" filePath="C:\Users\userbus\Desktop\Nueva carpeta\ibmIntegrationsCourse\workspace3\REST_CLIENT_OUT3" pattern="--------------REST OUT&#xD;&#xA;--------------REST OUT ROOT: ${Root}&#xD;&#xA;--------------REST OUT  LOCALENVIRONMENT: ${LocalEnvironment}&#xD;&#xA;--------------REST OUT  ENVIRONMENT: ${Environment}">
+        <translation xmi:type="utility:ConstantString" string="Trace5"/>
+      </nodes>
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_14" location="709,96" destination="file" filePath="C:\Users\userbus\Desktop\Nueva carpeta\ibmIntegrationsCourse\workspace3\REST_CLIENT_OUT" pattern="--------------REST OUT&#xD;&#xA;--------------REST OUT ROOT: ${Root}&#xD;&#xA;--------------REST OUT  LOCALENVIRONMENT: ${LocalEnvironment}&#xD;&#xA;--------------REST OUT  ENVIRONMENT: ${Environment}">
+        <translation xmi:type="utility:ConstantString" string="Trace6"/>
+      </nodes>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_1" targetNode="FCMComposite_1_3" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_2" targetNode="FCMComposite_1_6" sourceNode="FCMComposite_1_3" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_5" targetNode="FCMComposite_1_4" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.failure" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_6" targetNode="FCMComposite_1_4" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.catch" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_10" targetNode="FCMComposite_1_5" sourceNode="FCMComposite_1_6" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_13" targetNode="FCMComposite_1_9" sourceNode="FCMComposite_1_8" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_14" targetNode="FCMComposite_1_2" sourceNode="FCMComposite_1_9" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_16" targetNode="FCMComposite_1_11" sourceNode="FCMComposite_1_10" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_17" targetNode="FCMComposite_1_12" sourceNode="FCMComposite_1_11" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_18" targetNode="FCMComposite_1_13" sourceNode="FCMComposite_1_12" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_20" targetNode="FCMComposite_1_14" sourceNode="FCMComposite_1_7" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+    </composition>
+    <propertyOrganizer/>
+    <stickyBoard/>
+  </eClassifiers>
+</ecore:EPackage>

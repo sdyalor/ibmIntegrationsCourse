@@ -3,5 +3,8 @@
 <workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1579214683683_1" label="[blobSUBSTRING]" name="[blobSUBSTRING]">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/blobSUBSTRING" type="4"/>
 </workingSet>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1579289151086_2" label="[XML_JSON]" name="[XML_JSON]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/XML_JSON" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1579213794357_0" label="Window Working Set" name="Aggregate for window 1579213794356"/>
 </workingSetManager>

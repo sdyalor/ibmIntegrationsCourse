@@ -1,0 +1,3188 @@
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f4b0d10]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f2633d0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f4b2030]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f4b0d10]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f2633d0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f4b2030]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f3ef830]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f2693a0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f3ef1d0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f50c600]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f482990]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f50cf90]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f3e37a0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f482990]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f3e6110]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f25e070]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f38c0f0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f25f6c0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f4c3590]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f45de00]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f4c38c0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9e9527e0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c58a0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9e9514c0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f25ea00]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f462960]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f25f9f0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f25c6f0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fa68160]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f462960]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fa66e40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fa67e30]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f6139d0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f6139d0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f6139d0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f6139d0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f6139d0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f6139d0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f6139d0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fa81fc0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3851b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fa81c90]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fa83940]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f51f2b0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3851b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f51c610]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f51bfb0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f51f2b0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3851b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f51c610]
+  (0x01000000:Name):ROW                = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):WrittenDestination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f51bfb0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f51f2b0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3851b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f51c610]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f51bfb0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f51f2b0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3851b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f51c610]
+  (0x01000000:Name):ROW                = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):WrittenDestination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f51bfb0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fa17ab0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3851b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fa18440]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fa19430]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9ea7c590]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9faec990]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9ea7dbe0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9ea7d250]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9ea7c590]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9faec990]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9ea7dbe0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9ea7d250]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9ea7c590]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9faec990]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9ea7dbe0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9ea7d250]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f3d9df0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f3daab0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f3dbdd0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f5f2f60]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3fcbe0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f3290]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f4280]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f5f2f60]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3fcbe0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f3290]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f4280]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fadccb0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3fcbe0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fade300]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9faddca0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fadccb0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3fcbe0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fade300]
+  (0x01000000:Name):ROW                = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):WrittenDestination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9faddca0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fadccb0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3fcbe0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fade300]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9faddca0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fadccb0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3fcbe0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fade300]
+  (0x01000000:Name):ROW                = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):WrittenDestination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9faddca0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f5f38f0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f5f38f0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f5f38f0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f5f38f0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f5f38f0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f5f38f0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f5f38f0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f5f38f0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f5f38f0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f5f38f0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f60ac60]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9fae0970]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f608fb0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f60c5e0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f60c5e0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f6f0a50]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9fad2850]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f6f1d70]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f6f3a20]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f6f3a20]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fadcfe0]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f62ad20]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Object):JSON       = ( ['json' : 0x2af9fadc320]
+    (0x01000000:Object):Data = (
+      (0x03000000:NameValue):ROOT = 'string' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fadb660]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fadc650]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fadc650]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9faddfd0]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f482990]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Object):JSON       = ( ['json' : 0x2af9fadb660]
+    (0x01000000:Object):Data = (
+      (0x03000000:NameValue):ROOT = 'string' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fadd970]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fadb000]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fadb000]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f58b810]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f482990]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f589830]
+    (0x01000000:Object):Data = (
+      (0x03000000:NameValue):ROOT = 'string' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f588510]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f588840]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f588840]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f3da780]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f482990]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f3dbaa0]
+    (0x01000000:Object):Data = (
+      (0x03000000:NameValue):ROOT = 'string' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f3dc100]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f3db110]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f3db110]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fd4af60]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f58de80]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Object):JSON       = ( ['json' : 0x2af9fd4b8f0]
+    (0x01000000:Object):Data = (
+      (0x03000000:NameValue):ROOT = 'string' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fd49f70]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fd49c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fd49c40]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9feaeac0]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9fa04100]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Object):JSON       = ( ['json' : 0x2af9fead140]
+    (0x01000000:Object):Data = (
+      (0x03000000:NameValue):ROOT = 'string' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9feac7b0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9feaf120]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: 
+--------------REST OUT  LOCALENVIRONMENT: 
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9feaf120]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fd44c10]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fd44280]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fd45f30]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fd44c10]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fd44280]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fd45f30]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fd44c10]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fd44280]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 3E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO SOAP' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fd45f30]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 3E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO SOAP' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fd44c10]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fd44280]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fd45f30]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fee0030]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3fcbe0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fedd390]
+  (0x01000000:Name):ROW = 
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fedf6a0]
+  (0x03000000:NameValue):message = '1' (CHARACTER)
+  (0x01000000:Name     ):ROW     = 
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f4553d0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Name):BLOB       = ( ['none' : 0x2af9bf2abb0]
+    (0x01000000:Name):BLOB = (
+      (0x03000000:NameValue):NAME = X'6a756c696f20636573617220746f7272657320' (BLOB)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f453d80]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2afa01041b0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3fcbe0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Name):BLOB       = ( ['none' : 0x2af9bf2a8a0]
+    (0x01000000:Name):BLOB = (
+      (0x03000000:NameValue):NAME = X'6a756c696f20636573617220746f7272657320' (BLOB)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2afa0101840]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f607c60]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Name):BLOB       = ( ['none' : 0x2af9bf29950]
+    (0x01000000:Name):BLOB = (
+      (0x03000000:NameValue):NAME  = X'6a756c696f20636573617220746f7272657320' (BLOB)
+      (0x03000000:NameValue):NAME1 = X'6a756c696f20636573617220746f7272657320' (BLOB)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f606610]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fe81a50]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9c298c80]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Name):BLOB       = ( ['none' : 0x2af9bf29c60]
+    (0x01000000:Name):BLOB = (
+      (0x03000000:NameValue):NAME  = X'6a756c696f20636573617220746f7272657320' (BLOB)
+      (0x03000000:NameValue):NAME1 = X'6a756c696f20636573617220746f7272657320' (BLOB)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fe820b0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9ff62720]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9fffad30]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Name):BLOB       = ( ['none' : 0x2af9bf2a8a0]
+    (0x01000000:Name):BLOB = (
+      (0x03000000:NameValue):NAME  = X'6a756c696f20636573617220746f7272657320' (BLOB)
+      (0x03000000:NameValue):NAME1 = X'6a756c696f20636573617220746f7272657320' (BLOB)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9ff640a0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f460ac0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9fffad30]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Name):BLOB       = ( ['none' : 0x2af9bf29950]
+    (0x01000000:Name):BLOB = (
+      (0x01000000:Name     ):ROW   = (
+        (0x01000000:Name):LIST = (
+          (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+          (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+          (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+        )
+      )
+      (0x03000000:NameValue):NAME  = X'6a756c696f20636573617220746f7272657320' (BLOB)
+      (0x03000000:NameValue):NAME1 = X'6a756c696f20636573617220746f7272657320' (BLOB)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f45f7a0]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fc82750]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9fffad30]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Name):BLOB       = ( ['none' : 0x2af9bf2d070]
+    (0x01000000:Name     ):BLOB = 
+    (0x01000000:Name     ):ROW  = (
+      (0x01000000:Name):LIST = (
+        (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+        (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      )
+    )
+    (0x03000000:NameValue):NAME = 'julio cesar torres ' (CHARACTER)
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fc82420]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fd4bc40]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9fffad30]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Name):BLOB       = ( ['none' : 0x2af9bf2c740]
+    (0x01000000:Name     ):BLOB = 
+    (0x01000000:Name     ):ROW  = (
+      (0x01000000:Name):LIST = (
+        (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+        (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      )
+    )
+    (0x03000000:NameValue):NAME = 'julio cesar torres ' (CHARACTER)
+    (0x03000000:NameValue):CODE = 'FORMATO XML' (CHARACTER)
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fd4bf70]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2afa005ae10]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e9604c0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Name  ):BLOB       = ( ['none' : 0x2af9bf29950]
+    (0x01000000:Name     ):BLOB = 
+    (0x01000000:Name     ):ROW  = (
+      (0x01000000:Name):LIST = (
+        (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+        (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      )
+    )
+    (0x03000000:NameValue):NAME = 'julio cesar torres ' (CHARACTER)
+    (0x03000000:NameValue):CODE = 'FORMATO XML' (CHARACTER)
+  )
+  (0x01000000:Folder):XMLNSC     = ( ['xmlnsc' : 0x2af9b93e0a0]
+    (0x01000000:Folder):Data = (
+      (0x03000000:PCDataField):CODE = 'FORMATO XML' (CHARACTER)
+      (0x03000000:PCDataField):NAME = 'julio cesar torres ' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2afa0058e30]
+  (0x01000000:Name):ROW         = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2afa005ae10]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e9604c0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Name):BLOB       = ( ['none' : 0x2af9bf29950]
+    (0x01000000:Name     ):BLOB = 
+    (0x01000000:Name     ):ROW  = (
+      (0x01000000:Name):LIST = (
+        (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
+        (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
+        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      )
+    )
+    (0x03000000:NameValue):NAME = 'julio cesar torres ' (CHARACTER)
+    (0x03000000:NameValue):CODE = 'FORMATO JSON' (CHARACTER)
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2afa0058e30]
+  (0x01000000:Name):ROW = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2afa0045dc0]
+  (0x01000000:Name     ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f591e80]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Name     ):BLOB       = ( ['none' : 0x2af9bf2d070]
+    (0x01000000:Name     ):BLOB = 
+    (0x01000000:Name     ):ROW  = (
+      (0x01000000:Name):LIST = (
+        (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
+        (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
+        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      )
+    )
+    (0x03000000:NameValue):NAME = 'julio cesar torres ' (CHARACTER)
+    (0x03000000:NameValue):CODE = 'FORMATO JSON' (CHARACTER)
+  )
+  (0x01000000:Object   ):JSON       = ( ['json' : 0x2afa0046750]
+    (0x01000000:Object):Data = 
+  )
+  (0x03000000:NameValue):CODE       = 'FORMATO JSON' (CHARACTER)
+  (0x03000000:NameValue):NAME       = 'julio cesar torres ' (CHARACTER)
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2afa00470e0]
+  (0x01000000:Name):ROW         = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2afa004cdf0]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9fea61d0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Name  ):BLOB       = ( ['none' : 0x2af9bf2c740]
+    (0x01000000:Name     ):BLOB = 
+    (0x01000000:Name     ):ROW  = (
+      (0x01000000:Name):LIST = (
+        (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
+        (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
+        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      )
+    )
+    (0x03000000:NameValue):NAME = 'julio cesar torres ' (CHARACTER)
+    (0x03000000:NameValue):CODE = 'FORMATO JSON' (CHARACTER)
+  )
+  (0x01000000:Object):JSON       = ( ['json' : 0x2afa004fa90]
+    (0x01000000:Object):Data = (
+      (0x03000000:NameValue):CODE = 'FORMATO JSON' (CHARACTER)
+      (0x03000000:NameValue):NAME = 'julio cesar torres ' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2afa004e770]
+  (0x01000000:Name):ROW         = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2afa004cdf0]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9fea61d0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Name  ):BLOB       = ( ['none' : 0x2af9bf2c740]
+    (0x01000000:Name     ):BLOB = 
+    (0x01000000:Name     ):ROW  = (
+      (0x01000000:Name):LIST = (
+        (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
+        (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
+        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      )
+    )
+    (0x03000000:NameValue):NAME = 'julio cesar torres ' (CHARACTER)
+    (0x03000000:NameValue):CODE = 'FORMATO JSON' (CHARACTER)
+  )
+  (0x01000000:Object):JSON       = ( ['json' : 0x2afa004fa90]
+    (0x01000000:Object):Data = (
+      (0x03000000:NameValue):CODE = 'FORMATO JSON' (CHARACTER)
+      (0x03000000:NameValue):NAME = 'julio cesar torres ' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2afa004e770]
+  (0x01000000:Name):ROW         = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['MQROOT' : 0x2afa004cdf0]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9fea61d0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Name  ):BLOB       = ( ['none' : 0x2af9bf2c740]
+    (0x01000000:Name     ):BLOB = 
+    (0x01000000:Name     ):ROW  = (
+      (0x01000000:Name):LIST = (
+        (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+        (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      )
+    )
+    (0x03000000:NameValue):NAME = 'julio cesar torres ' (CHARACTER)
+    (0x03000000:NameValue):CODE = 'FORMATO XML' (CHARACTER)
+  )
+  (0x01000000:Folder):XMLNSC     = ( ['xmlnsc' : 0x2af9b93c120]
+    (0x01000000:Folder):Data = (
+      (0x03000000:PCDataField):CODE = 'FORMATO XML' (CHARACTER)
+      (0x03000000:PCDataField):NAME = 'julio cesar torres ' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2afa004e770]
+  (0x01000000:Name):ROW         = (
+    (0x01000000:Name):LIST = (
+      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
+      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
+      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 

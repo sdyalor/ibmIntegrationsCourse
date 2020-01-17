@@ -1,0 +1,76 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		/*
+		 *From Queue
+		 */
+		-- SET BINARY DATA AS CHARACTER
+		DECLARE Message CHARACTER CAST(InputRoot.BLOB.BLOB AS CHARACTER CCSID InputProperties.CodedCharSetId); 
+		
+		-- GET ID FROM Message
+		DECLARE ID CHARACTER SUBSTRING(Message AFTER 'CODE:' FOR 1);
+		-- GET USER NAME FROM Message
+		DECLARE NAME CHARACTER SUBSTRING(Message FROM 0 FOR 20);
+		/*
+		 *From DB
+		 */
+		-- SET NEW ROW
+		DECLARE CODE ROW;
+		-- LIST CONSTRUCTOR
+		SET CODE.LIST[] = LIST{ROW('RANDOM', 'DUMMY', 'COLUMNS','TEST')};
+	    CALL getFormatCode(ID,CODE.LIST[]);
+	    
+	    /*
+	     *SAVE ROW IN Environment
+	     */
+	     
+--	    SET Environment.ROW = CAST(CODE AS BLOB CCSID InputProperties.CodedCharSetId);
+	    SET OutputLocalEnvironment.ROW = CODE;
+	    
+	    /*
+	     * SAVE DATA TO OutputBLOB as BLOB
+	     */
+	    CREATE LASTCHILD OF OutputRoot DOMAIN 'BLOB' NAME 'BLOB';
+	    CREATE LASTCHILD OF OutputRoot.BLOB NAME 'BLOB';
+	    
+	    SET OutputRoot.BLOB.ROW = CODE;
+	--    SET OutputRoot.BLOB.BLOB.NAME = CAST(NAME AS BLOB CCSID InputProperties.CodedCharSetId);
+	--    SET OutputRoot.BLOB.BLOB.NAME1 = CAST(NAME AS BLOB CCSID InputProperties.CodedCharSetId);
+	    SET OutputRoot.BLOB.NAME = NAME;
+	   /* !!!IMPORTANT- FORGET TO SAVE JUST REQUEST TO HTTP */ 
+	    SET OutputRoot.BLOB.CODE = CODE.LIST[1].CODE;
+	    --IF CODE.LIST[1].CODE =
+	    
+	    
+	    /*
+	     * SEND DATA TO REQUEST
+	     */
+	    
+	    CASE ID
+			WHEN 1 THEN
+				CREATE LASTCHILD OF OutputRoot DOMAIN 'XMLNSC' NAME 'XMLNSC';
+				CREATE LASTCHILD OF OutputRoot.XMLNSC NAME 'Data';
+				DECLARE refOut REFERENCE TO OutputRoot.XMLNSC.Data;
+				SET refOut.CODE = CODE.LIST[1].CODE;
+				SET refOut.NAME = NAME;
+				SET OutputLocalEnvironment.Destination.HTTP.RequestURL = 'http://localhost:7080/test/xml';
+			WHEN 2 THEN
+	    ELSE END CASE;
+
+	    
+	    
+	    /*
+	     *SAVE JSON TO ROOT
+	     */ 
+--	    CREATE LASTCHILD OF OutputRoot DOMAIN 'JSON' NAME 'JSON';
+--	 	CREATE LASTCHILD OF OutputRoot.JSON NAME 'Data';
+--		SET OutputRoot.JSON.Data.ROOT = 'string';
+--	    PROPAGATE TO TERMINAL('out') DELETE DEFAULT;
+		RETURN TRUE;
+		
+	END;
+
+	CREATE PROCEDURE getFormatCode (IN formatID CHARACTER)
+	  LANGUAGE DATABASE
+	  DYNAMIC RESULT SETS 1
+	  EXTERNAL NAME "ACE_SAMPLE.PKG_CONTROL.SP_READ_MESSAGE";
+

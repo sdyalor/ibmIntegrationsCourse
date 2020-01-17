@@ -1,0 +1,19 @@
+CREATE COMPUTE MODULE rawTo_1Name_50_Table_Compute3
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		/*
+		 *From Queue
+		 */
+		DECLARE ID CHARACTER;
+		DECLARE CODE[] ;
+	    CALL getFormatCode(ID,resJsonBody.result[]);
+	    SET resJsonBody.mensaje[] = Environment.result[];
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE getFormatCode (IN formatID CHARACTER)
+	  LANGUAGE DATABASE
+	  DYNAMIC RESULT SETS 1
+	  EXTERNAL NAME "ACE_SAMPLE.PKG_CONTROL.SP_READ_MESSAGE";
+
+END MODULE;

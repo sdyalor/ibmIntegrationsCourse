@@ -412,3 +412,91 @@
   )
 )
 --------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f2c1a50]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3f9bb0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f2c33d0]
+    (0x01000000:Object):Data = (
+      (0x01000000:Object):result = (
+        (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
+        (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
+        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      )
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f2c3700]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e2006d10b' (BLOB)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f2c1a50]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3f9bb0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f2c33d0]
+    (0x01000000:Object):Data = (
+      (0x01000000:Object):result = (
+        (0x03000000:NameValue):ID     = 3E+0 (FLOAT)
+        (0x03000000:NameValue):CODE   = 'FORMATO SOAP' (CHARACTER)
+        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      )
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f2c3700]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e2006d10c' (BLOB)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 

@@ -62,3 +62,12 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation -product
 
 !ENTRY net.sourceforge.vrapper.eclipse 1 0 2020-01-16 20:16:08.602
 !MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2020-01-17 10:39:31.283
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2020-01-17 10:42:55.482
+!MESSAGE No .vrapperrc or _vrapperrc found.
+
+!ENTRY net.sourceforge.vrapper.eclipse 1 0 2020-01-17 14:26:06.167
+!MESSAGE No .vrapperrc or _vrapperrc found.
