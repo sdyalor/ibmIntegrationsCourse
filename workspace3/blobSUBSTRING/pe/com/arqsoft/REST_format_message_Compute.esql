@@ -11,7 +11,7 @@ CREATE COMPUTE MODULE REST_format_message_Compute
 		DECLARE iLocalEnvRequestId REFERENCE TO InputLocalEnvironment.Destination.HTTP.RequestIdentifier;
 		DECLARE oLocalEnvRequestId REFERENCE TO OutputLocalEnvironment.Destination.HTTP.RequestIdentifier;
 		SET oLocalEnvRequestId = iLocalEnvRequestId;	
-		
+/*		
 	/*
 	 * create json tree for response
 	 */
@@ -28,13 +28,33 @@ CREATE COMPUTE MODULE REST_format_message_Compute
 --	    CALL getFormatCode(reqJsonBody.ID,Environment.result[]);
 	    CALL getFormatCode(reqJsonBody.ID,resJsonBody.result[]);
 	    SET resJsonBody.mensaje[] = Environment.result[];
+*/
+		                    
+		--DECLARE RequestDataType CHARACTER InputLocalEnvironment.HTTP.Input.Path.Segment[1];
+		
+		DECLARE RequestDataType CHARACTER InputLocalEnvironment.HTTP.Input.Path.Segment[2];
+		
+	    CASE RequestDataType
+			WHEN 'xml' THEN
+				CREATE LASTCHILD OF OutputRoot DOMAIN 'XMLNSC' PARSE(InputRoot.BLOB.BLOB);
+				/*
+				CREATE LASTCHILD OF OutputRoot.XMLNSC NAME 'Data';
+				DECLARE refOut REFERENCE TO OutputRoot.XMLNSC.Data;
+				SET refOut = InputRoot.XMLNSC.Data;
+				*/
+								
+	    	WHEN 'json' THEN
+				CREATE LASTCHILD OF OutputRoot DOMAIN 'JSON' PARSE(InputRoot.BLOB.BLOB);
+				/*
+				CREATE LASTCHILD OF OutputRoot.JSON NAME 'Data';
+				DECLARE refOut REFERENCE TO OutputRoot.JSON.Data;
+				SET refOut = InputRoot.JSON.Data;
+				*/
+	    ELSE END CASE;
+		
+		
 		RETURN TRUE;
 		
 	END;
 
-	--read PROCEDURE SP_READ_PROD (P_COD_PROD IN INTEGER, C_PARAMETER OUT SYS_REFCURSOR)
-	CREATE PROCEDURE getFormatCode (IN formatID CHARACTER)
-	  LANGUAGE DATABASE
-	  DYNAMIC RESULT SETS 1
-	  EXTERNAL NAME "ACE_SAMPLE.PKG_CONTROL.SP_READ_MESSAGE";
 END MODULE;

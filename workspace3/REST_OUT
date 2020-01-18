@@ -1,6 +1,6 @@
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f053140]
-  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9efbf180]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a22495b240]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a22673ce20]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -24,177 +24,18 @@
     (0x03000000:NameValue):IdentityMappedPassword = NULL
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
-  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f052e10]
-    (0x01000000:Object):Data = (
-      (0x01000000:Object):mensaje = (
-        (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-        (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-      )
-    )
-  )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f055de0]
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2261e9770]
   (0x01000000:Name):Destination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e2006710c' (BLOB)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f055450]
-  (0x01000000:Name):result = (
-    (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-    (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-    (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f053140]
-  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9efbf180]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f052e10]
-    (0x01000000:Object):Data = (
-      (0x01000000:Object):mensaje = (
-        (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
-        (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
-        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-      )
-    )
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f055de0]
-  (0x01000000:Name):Destination = (
-    (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e2006710d' (BLOB)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f055450]
-  (0x01000000:Name):result = (
-    (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
-    (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
-    (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f053140]
-  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9efbf180]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f052e10]
-    (0x01000000:Object):Data = (
-      (0x01000000:Object):mensaje = (
-        (0x03000000:NameValue):ID     = 3E+0 (FLOAT)
-        (0x03000000:NameValue):CODE   = 'FORMATO SOAP' (CHARACTER)
-        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-      )
-    )
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f055de0]
-  (0x01000000:Name):Destination = (
-    (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e2006710e' (BLOB)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f055450]
-  (0x01000000:Name):result = (
-    (0x03000000:NameValue):ID     = 3E+0 (FLOAT)
-    (0x03000000:NameValue):CODE   = 'FORMATO SOAP' (CHARACTER)
-    (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f1e8130]
-  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9c0c5ca0]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f1ea440]
-    (0x01000000:Object):Data = (
-      (0x01000000:Object):result = (
-        (0x03000000:NameValue):ID     = 3E+0 (FLOAT)
-        (0x03000000:NameValue):CODE   = 'FORMATO SOAP' (CHARACTER)
-        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-      )
-    )
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f1eb760]
-  (0x01000000:Name):Destination = (
-    (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e20067618' (BLOB)
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200e820f' (BLOB)
     )
   )
 )
 --------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f1e8130]
-  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9c0c5ca0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea100]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e1d00]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -218,27 +59,18 @@
     (0x03000000:NameValue):IdentityMappedPassword = NULL
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
-  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f1ea440]
-    (0x01000000:Object):Data = (
-      (0x01000000:Object):result = (
-        (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-        (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-      )
-    )
-  )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f1eb760]
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a225088a50]
   (0x01000000:Name):Destination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e20067619' (BLOB)
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200e8b0e' (BLOB)
     )
   )
 )
 --------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f1e8130]
-  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9c0c5ca0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea100]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e1d00]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -262,27 +94,18 @@
     (0x03000000:NameValue):IdentityMappedPassword = NULL
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
-  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f1ea440]
-    (0x01000000:Object):Data = (
-      (0x01000000:Object):result = (
-        (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
-        (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
-        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-      )
-    )
-  )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f1eb760]
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a225088a50]
   (0x01000000:Name):Destination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e2006761a' (BLOB)
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200e8c31' (BLOB)
     )
   )
 )
 --------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f2c1a50]
-  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3f9bb0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e7130]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e3b30]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -306,27 +129,18 @@
     (0x03000000:NameValue):IdentityMappedPassword = NULL
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
-  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f2c33d0]
-    (0x01000000:Object):Data = (
-      (0x01000000:Object):result = (
-        (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
-        (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
-        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-      )
-    )
-  )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f2c3700]
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a22495d880]
   (0x01000000:Name):Destination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e2006745a' (BLOB)
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200e900f' (BLOB)
     )
   )
 )
 --------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f2c1a50]
-  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3f9bb0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8780]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e3b30]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -350,27 +164,18 @@
     (0x03000000:NameValue):IdentityMappedPassword = NULL
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
-  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f2c33d0]
-    (0x01000000:Object):Data = (
-      (0x01000000:Object):result = (
-        (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
-        (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
-        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-      )
-    )
-  )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f2c3700]
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f5f7b0]
   (0x01000000:Name):Destination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e2006745b' (BLOB)
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200e981d' (BLOB)
     )
   )
 )
 --------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f2c1a50]
-  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3f9bb0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8780]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e3b30]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -394,27 +199,18 @@
     (0x03000000:NameValue):IdentityMappedPassword = NULL
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
-  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f2c33d0]
-    (0x01000000:Object):Data = (
-      (0x01000000:Object):result = (
-        (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-        (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-      )
-    )
-  )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f2c3700]
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f5f7b0]
   (0x01000000:Name):Destination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e2006745c' (BLOB)
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200e9a1c' (BLOB)
     )
   )
 )
 --------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f2c1a50]
-  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3f9bb0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8780]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e3b30]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -438,27 +234,18 @@
     (0x03000000:NameValue):IdentityMappedPassword = NULL
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
-  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f2c33d0]
-    (0x01000000:Object):Data = (
-      (0x01000000:Object):result = (
-        (0x03000000:NameValue):ID     = 2E+0 (FLOAT)
-        (0x03000000:NameValue):CODE   = 'FORMATO JSON' (CHARACTER)
-        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-      )
-    )
-  )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f2c3700]
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f5f7b0]
   (0x01000000:Name):Destination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e2006d10b' (BLOB)
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200e9b18' (BLOB)
     )
   )
 )
 --------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f2c1a50]
-  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f3f9bb0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8780]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e3b30]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -482,20 +269,951 @@
     (0x03000000:NameValue):IdentityMappedPassword = NULL
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
-  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f2c33d0]
-    (0x01000000:Object):Data = (
-      (0x01000000:Object):result = (
-        (0x03000000:NameValue):ID     = 3E+0 (FLOAT)
-        (0x03000000:NameValue):CODE   = 'FORMATO SOAP' (CHARACTER)
-        (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f5f7b0]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200e9c11' (BLOB)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8780]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e3b30]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f5f7b0]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200ea607' (BLOB)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8de0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e08e0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2261e9440]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200eb129' (BLOB)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8de0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e08e0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2261e9440]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200eb31e' (BLOB)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8de0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e08e0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2261e9440]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200eb51d' (BLOB)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8de0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226d52bb0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2261e7ac0]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200ebd11' (BLOB)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x1a2261e8780]
+  (0x03000000:NameValue):data = 'TEXTO' (CHARACTER)
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea760]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226c91c30]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2261e9440]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200ed216' (BLOB)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x1a2261e7ac0]
+  (0x03000000:NameValue):data = 'TEXTO' (CHARACTER)
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea760]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226c91c30]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2261e9440]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200ed537' (BLOB)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x1a2261e7ac0]
+  (0x03000000:NameValue):data = 'TEXTO' (CHARACTER)
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8ab0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226d4f960]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a22495b240]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200eda0c' (BLOB)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x1a2261e8780]
+  (0x03000000:NameValue):data1 = 'DATA1 IS NULL' (CHARACTER)
+  (0x03000000:NameValue):data  = 'DATA IS NULL' (CHARACTER)
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e7130]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226d4c710]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2250890b0]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200ee34f' (BLOB)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x1a2261e7ac0]
+  (0x03000000:NameValue):data1 = 'DATA1 IS NULL' (CHARACTER)
+  (0x03000000:NameValue):data  = 'DATA IS NULL' (CHARACTER)
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e9770]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226d4bd00]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f61df0]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200ee952' (BLOB)
+    )
+  )
+  (0x01000000:Name):HTTP        = (
+    (0x01000000:Name):Input = (
+      (0x01000000:Name):Path = (
+        (0x03000000:NameValue):Segment = 'test' (CHARACTER)
+        (0x03000000:NameValue):Segment = 'xml' (CHARACTER)
       )
     )
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f2c3700]
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x1a2261e9dd0]
+  (0x03000000:NameValue):data1 = 'DATA1 IS NULL' (CHARACTER)
+  (0x03000000:NameValue):data  = 'test' (CHARACTER)
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8780]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226d50370]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a22495e870]
   (0x01000000:Name):Destination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e2006d10c' (BLOB)
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200ef30b' (BLOB)
+    )
+  )
+  (0x01000000:Name):HTTP        = (
+    (0x01000000:Name):Input = (
+      (0x01000000:Name):Path = (
+        (0x03000000:NameValue):Segment = 'test' (CHARACTER)
+        (0x03000000:NameValue):Segment = 'xml' (CHARACTER)
+      )
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x1a2261e7130]
+  (0x03000000:NameValue):data1 = 'DATA1 IS NULL' (CHARACTER)
+  (0x03000000:NameValue):data  = 'DATA IS NULL' (CHARACTER)
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8780]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226d50370]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a22495e870]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200ef418' (BLOB)
+    )
+  )
+  (0x01000000:Name):HTTP        = (
+    (0x01000000:Name):Input = (
+      (0x01000000:Name):Path = (
+        (0x03000000:NameValue):Segment = 'test' (CHARACTER)
+        (0x03000000:NameValue):Segment = 'xml' (CHARACTER)
+      )
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x1a2261e7130]
+  (0x03000000:NameValue):data1 = 'DATA1 IS NULL' (CHARACTER)
+  (0x03000000:NameValue):data  = 'DATA IS NULL' (CHARACTER)
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e7130]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226daff90]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a225087d90]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200efa0d' (BLOB)
+    )
+  )
+  (0x01000000:Name):HTTP        = (
+    (0x01000000:Name):Input = (
+      (0x01000000:Name):Path = (
+        (0x03000000:NameValue):Segment = 'test' (CHARACTER)
+        (0x03000000:NameValue):Segment = 'xml' (CHARACTER)
+      )
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x1a2261ea760]
+  (0x03000000:NameValue):data1 = 'DATA1 IS NULL' (CHARACTER)
+  (0x03000000:NameValue):data  = 'DATA IS NULL' (CHARACTER)
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8780]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226f76a70]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f62120]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200f0130' (BLOB)
+    )
+  )
+  (0x01000000:Name):HTTP        = (
+    (0x01000000:Name):Input = (
+      (0x01000000:Name):Path = (
+        (0x03000000:NameValue):Segment = 'test' (CHARACTER)
+        (0x03000000:NameValue):Segment = 'xml' (CHARACTER)
+      )
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x1a2261e7130]
+  (0x03000000:NameValue):data1 = 'DATA1 IS NULL' (CHARACTER)
+  (0x03000000:NameValue):data  = 'DATA IS NULL' (CHARACTER)
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8780]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265dfed0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a22495cef0]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200f0b42' (BLOB)
+    )
+  )
+  (0x01000000:Name):HTTP        = (
+    (0x01000000:Name):Input = (
+      (0x01000000:Name):Path = (
+        (0x03000000:NameValue):Segment = 'test' (CHARACTER)
+        (0x03000000:NameValue):Segment = 'xml' (CHARACTER)
+      )
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x1a2261e8de0]
+  (0x03000000:NameValue):ROW  = 'DATA1 IS NULL' (CHARACTER)
+  (0x03000000:NameValue):data = 'DATA IS NULL' (CHARACTER)
+)
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea430]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x1a226d005a0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Folder):XMLNSC     = ( ['xmlnsc' : 0x1a2261a0460]
+    (0x01000000:Folder):Data = 
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a225087730]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200f110b' (BLOB)
+    )
+  )
+  (0x01000000:Name):HTTP        = (
+    (0x01000000:Name):Input = (
+      (0x01000000:Name):Path = (
+        (0x03000000:NameValue):Segment = 'test' (CHARACTER)
+        (0x03000000:NameValue):Segment = 'xml' (CHARACTER)
+      )
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e9dd0]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x1a226d02de0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Folder):XMLNSC     = ( ['xmlnsc' : 0x1a2261a00e0]
+    (0x01000000:Folder):Data = 
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f62120]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200f124c' (BLOB)
+    )
+  )
+  (0x01000000:Name):HTTP        = (
+    (0x01000000:Name):Input = (
+      (0x01000000:Name):Path = (
+        (0x03000000:NameValue):Segment = 'test' (CHARACTER)
+        (0x03000000:NameValue):Segment = 'xml' (CHARACTER)
+      )
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a225088d80]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x1a22705c490]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Folder):XMLNSC     = ( ['xmlnsc' : 0x1a2261a07e0]
+    (0x01000000:Folder):Data = (
+      (0x03000000:PCDataField):CODE = 'FORMATO XML' (CHARACTER)
+      (0x03000000:PCDataField):NAME = 'julio cesar torres ' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2261ea760]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200f260b' (BLOB)
+    )
+  )
+  (0x01000000:Name):HTTP        = (
+    (0x01000000:Name):Input = (
+      (0x01000000:Name):Path = (
+        (0x03000000:NameValue):Segment = 'test' (CHARACTER)
+        (0x03000000:NameValue):Segment = 'xml' (CHARACTER)
+      )
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e7130]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x1a226a51d70]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Folder):XMLNSC     = ( ['xmlnsc' : 0x1a22619e4e0]
+    (0x01000000:Folder):Data = (
+      (0x03000000:PCDataField):CODE = 'FORMATO XML' (CHARACTER)
+      (0x03000000:PCDataField):NAME = 'julio cesar torres ' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f5f150]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200f2753' (BLOB)
+    )
+  )
+  (0x01000000:Name):HTTP        = (
+    (0x01000000:Name):Input = (
+      (0x01000000:Name):Path = (
+        (0x03000000:NameValue):Segment = 'test' (CHARACTER)
+        (0x03000000:NameValue):Segment = 'xml' (CHARACTER)
+      )
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e7130]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x1a226a51d70]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Object):JSON       = ( ['json' : 0x1a225088a50]
+    (0x01000000:Object):Data = (
+      (0x03000000:NameValue):CODE = 'FORMATO JSON' (CHARACTER)
+      (0x03000000:NameValue):NAME = 'julio cesar torres ' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f5f150]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200f2a0d' (BLOB)
+    )
+  )
+  (0x01000000:Name):HTTP        = (
+    (0x01000000:Name):Input = (
+      (0x01000000:Name):Path = (
+        (0x03000000:NameValue):Segment = 'test' (CHARACTER)
+        (0x03000000:NameValue):Segment = 'json' (CHARACTER)
+      )
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8ab0]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x1a226a4d700]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Object):JSON       = ( ['json' : 0x1a2261ea100]
+    (0x01000000:Object):Data = (
+      (0x03000000:NameValue):CODE = 'FORMATO JSON' (CHARACTER)
+      (0x03000000:NameValue):NAME = 'julio cesar torres ' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2261e8780]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200f513a' (BLOB)
+    )
+  )
+  (0x01000000:Name):HTTP        = (
+    (0x01000000:Name):Input = (
+      (0x01000000:Name):Path = (
+        (0x03000000:NameValue):Segment = 'test' (CHARACTER)
+        (0x03000000:NameValue):Segment = 'json' (CHARACTER)
+      )
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8ab0]
+  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x1a226a4d700]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'SOAP-HTTP' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+  (0x01000000:Folder):XMLNSC     = ( ['xmlnsc' : 0x1a22619e4e0]
+    (0x01000000:Folder):Data = (
+      (0x03000000:PCDataField):CODE = 'FORMATO XML' (CHARACTER)
+      (0x03000000:PCDataField):NAME = 'julio cesar torres ' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2261e8780]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e200f590b' (BLOB)
+    )
+  )
+  (0x01000000:Name):HTTP        = (
+    (0x01000000:Name):Input = (
+      (0x01000000:Name):Path = (
+        (0x03000000:NameValue):Segment = 'test' (CHARACTER)
+        (0x03000000:NameValue):Segment = 'xml' (CHARACTER)
+      )
     )
   )
 )

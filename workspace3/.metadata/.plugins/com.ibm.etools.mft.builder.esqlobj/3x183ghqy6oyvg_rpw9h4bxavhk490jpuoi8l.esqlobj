@@ -1,0 +1,56 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		DECLARE requestIdentifier CHARACTER;
+	/*
+	 * set uri for Response
+	 */	
+		DECLARE iLocalEnvRequestId REFERENCE TO InputLocalEnvironment.Destination.HTTP.RequestIdentifier;
+		DECLARE oLocalEnvRequestId REFERENCE TO OutputLocalEnvironment.Destination.HTTP.RequestIdentifier;
+		SET oLocalEnvRequestId = iLocalEnvRequestId;	
+/*		
+	/*
+	 * create json tree for response
+	 */
+	 	CREATE LASTCHILD OF OutputRoot DOMAIN 'JSON' NAME 'JSON';
+	 	CREATE LASTCHILD OF OutputRoot.JSON NAME 'Data';
+	/*
+	 * create reference to input body from Request
+	 */
+		--CREATE LASTCHILD OF OutputRoot.JSON.Data NAME 'Productos';  
+	 	DECLARE reqJsonBody REFERENCE TO InputRoot.JSON.Data;
+	 	DECLARE resJsonBody REFERENCE TO OutputRoot.JSON.Data;
+	 	DECLARE id CHARACTER;
+	 	
+--	    CALL getFormatCode(reqJsonBody.ID,Environment.result[]);
+	    CALL getFormatCode(reqJsonBody.ID,resJsonBody.result[]);
+	    SET resJsonBody.mensaje[] = Environment.result[];
+*/
+		DECLARE inCCSID INT InputProperties.CodedCharSetId; 
+		                    
+		--DECLARE RequestDataType CHARACTER InputLocalEnvironment.HTTP.Input.Path.Segment[1];
+		
+		DECLARE RequestDataType CHARACTER InputLocalEnvironment.HTTP.Input.Path.Segment[1];
+		DECLARE inputEnv CHARACTER;
+		SET inputEnv = InputLocalEnvironment;
+		SET Environment.data1 = COALESCE(inputEnv, 'DATA1 IS NULL');
+		SET Environment.data = COALESCE(InputLocalEnvironment.HTTP.Input, 'DATA IS NULL');	
+		
+	    CASE RequestDataType
+			WHEN 'xml' THEN
+				CREATE LASTCHILD OF OutputRoot DOMAIN 'XMLNSC' PARSE(InputRoot.BLOB.BLOB);
+				CREATE LASTCHILD OF OutputRoot.XMLNSC NAME 'Data';
+				DECLARE refOut REFERENCE TO OutputRoot.XMLNSC.Data;
+				SET refOut = InputRoot.XMLNSC.Data;
+								
+	    	WHEN 'json' THEN
+				CREATE LASTCHILD OF OutputRoot DOMAIN 'JSON' PARSE(InputRoot.BLOB.BLOB);
+				CREATE LASTCHILD OF OutputRoot.JSON NAME 'Data';
+				DECLARE refOut REFERENCE TO OutputRoot.JSON.Data;
+				SET refOut = InputRoot.JSON.Data;
+	    ELSE END CASE;
+		
+		
+		RETURN TRUE;
+		
+	END;
+

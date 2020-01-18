@@ -1,6 +1,6 @@
 --------------REST OUT
---------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f50bc70]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e960890]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a22495e210]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226741490]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -25,262 +25,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: 
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f50cf90]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f3e6770]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f391ce0]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: 
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f3e6110]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f25f390]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f504ef0]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: 
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f25f6c0]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f4c3bf0]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f462960]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: 
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f4c38c0]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['MQROOT' : 0x2af9e954e20]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e95f4b0]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: 
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9e9514c0]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f25e6d0]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9fa21890]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f25f9f0]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f25c6f0]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f35c0]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f5a33d0]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f3290]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2261e8de0]
+  (0x01000000:Name):Destination        = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f4280]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f35c0]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f5a33d0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea760]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e08e0]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -305,32 +65,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f3290]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a225086da0]
+  (0x01000000:Name):Destination        = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f4280]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9fadacd0]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e9589d0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea760]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e08e0]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -355,32 +105,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fade300]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a225086da0]
+  (0x01000000:Name):Destination        = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9faddca0]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9fadacd0]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e9589d0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e9440]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e08e0]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -405,32 +145,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fade300]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a22495cef0]
+  (0x01000000:Name):Destination        = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9faddca0]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9fadacd0]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e9589d0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea760]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e4540]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -455,32 +185,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fade300]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f61790]
+  (0x01000000:Name):Destination        = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9faddca0]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9fadacd0]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e9589d0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea760]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e4540]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -505,32 +225,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fade300]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f61790]
+  (0x01000000:Name):Destination        = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9faddca0]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e9589d0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea760]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e4540]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -555,32 +265,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f61790]
+  (0x01000000:Name):Destination        = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea760]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e4540]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -605,75 +305,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f38f0]
-  (0x01000000:Name):WrittenDestination = (
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f61790]
+  (0x01000000:Name):Destination        = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e9589d0]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea760]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e4540]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -698,75 +345,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f38f0]
-  (0x01000000:Name):WrittenDestination = (
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f61790]
+  (0x01000000:Name):Destination        = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e9589d0]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a22495e870]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265dfed0]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -791,75 +385,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f38f0]
-  (0x01000000:Name):WrittenDestination = (
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2250883f0]
+  (0x01000000:Name):Destination        = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e9589d0]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a22495e870]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265dfed0]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -884,75 +425,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f38f0]
-  (0x01000000:Name):WrittenDestination = (
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2250883f0]
+  (0x01000000:Name):Destination        = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e9589d0]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a22495e870]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265dfed0]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -977,75 +465,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f38f0]
-  (0x01000000:Name):WrittenDestination = (
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2250883f0]
+  (0x01000000:Name):Destination        = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e9589d0]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2250890b0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226d4f960]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -1070,75 +505,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f38f0]
-  (0x01000000:Name):WrittenDestination = (
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a22495c560]
+  (0x01000000:Name):Destination        = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e9589d0]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a22495e870]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226c92640]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -1163,75 +545,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f38f0]
-  (0x01000000:Name):WrittenDestination = (
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2250883f0]
+  (0x01000000:Name):Destination        = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e9589d0]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a22495e870]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226c92640]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -1256,75 +585,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f38f0]
-  (0x01000000:Name):WrittenDestination = (
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2250883f0]
+  (0x01000000:Name):Destination        = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e9589d0]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e9770]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226d51790]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -1349,75 +625,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f38f0]
-  (0x01000000:Name):WrittenDestination = (
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a22495d550]
+  (0x01000000:Name):Destination        = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9e9589d0]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f15e0]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f5f2900]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4c60b0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea760]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226d4d120]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -1442,75 +665,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f5f38f0]
-  (0x01000000:Name):WrittenDestination = (
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a225088d80]
+  (0x01000000:Name):Destination        = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f5f1c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f608c80]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f61c230]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f608fb0]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f60c5e0]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f608c80]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9fae0970]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e7130]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226d50d80]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -1535,75 +705,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f60ac60]
-  (0x01000000:Name):WrittenDestination = (
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f61460]
+  (0x01000000:Name):Destination        = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f60c5e0]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f6f2a30]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9fd7e1f0]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f6f1d70]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f6f3a20]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9f6f2a30]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9fad2850]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea760]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226d4db30]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -1628,75 +745,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f6f0a50]
-  (0x01000000:Name):WrittenDestination = (
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a22495d550]
+  (0x01000000:Name):Destination        = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f6f3a20]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9fadb330]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f61c230]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fadb660]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fadc650]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9fadb330]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f62ad20]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea760]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226d4db30]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -1721,75 +785,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fadcfe0]
-  (0x01000000:Name):WrittenDestination = (
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a22495d550]
+  (0x01000000:Name):Destination        = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fadc650]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9fade300]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f60ec50]
-    (0x03000000:NameValue):MessageSet             = NULL
-    (0x03000000:NameValue):MessageType            = NULL
-    (0x03000000:NameValue):MessageFormat          = NULL
-    (0x03000000:NameValue):Encoding               = NULL
-    (0x03000000:NameValue):CodedCharSetId         = NULL
-    (0x03000000:NameValue):Transactional          = NULL
-    (0x03000000:NameValue):Persistence            = NULL
-    (0x03000000:NameValue):CreationTime           = NULL
-    (0x03000000:NameValue):ExpirationTime         = NULL
-    (0x03000000:NameValue):Priority               = NULL
-    (0x03000000:NameValue):ReplyIdentifier        = NULL
-    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
-    (0x03000000:NameValue):Topic                  = NULL
-    (0x03000000:NameValue):ContentType            = NULL
-    (0x03000000:NameValue):IdentitySourceType     = NULL
-    (0x03000000:NameValue):IdentitySourceToken    = NULL
-    (0x03000000:NameValue):IdentitySourcePassword = NULL
-    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
-    (0x03000000:NameValue):IdentityMappedType     = NULL
-    (0x03000000:NameValue):IdentityMappedToken    = NULL
-    (0x03000000:NameValue):IdentityMappedPassword = NULL
-    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
-  )
-)
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fadd970]
-  (0x01000000:Name):ROW                = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fadb000]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['WSRoot' : 0x2af9fade300]
-  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f482990]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e8780]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226db1dc0]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -1814,25 +825,22 @@
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9faddfd0]
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a225087400]
+  (0x01000000:Name):Destination        = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
+    )
+  )
   (0x01000000:Name):WrittenDestination = (
     (0x01000000:Name):HTTP = (
-      (0x03000000:NameValue):RequestURL = 'https://www.google.com' (CHARACTER)
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fadb000]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f5891d0]
-  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9fad4870]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea430]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226f70fe0]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -1856,45 +864,23 @@
     (0x03000000:NameValue):IdentityMappedPassword = NULL
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
-  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f589500]
-    (0x01000000:Object):Data = (
-      (0x03000000:NameValue):ROOT = 'string' (CHARACTER)
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f60140]
+  (0x01000000:Name):Destination        = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):WrittenDestination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f588510]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f588840]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: 
---------------REST OUT  LOCALENVIRONMENT: 
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f588840]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['MQROOT' : 0x2af9f3d9790]
-  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9f4b9930]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a225088a50]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a2265e5960]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -1918,45 +904,23 @@
     (0x03000000:NameValue):IdentityMappedPassword = NULL
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
-  (0x01000000:Object):JSON       = ( ['json' : 0x2af9f3d9ac0]
-    (0x01000000:Object):Data = (
-      (0x03000000:NameValue):ROOT = 'string' (CHARACTER)
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a22495dbb0]
+  (0x01000000:Name):Destination        = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):WrittenDestination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9f3dc100]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f3db110]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: 
---------------REST OUT  LOCALENVIRONMENT: 
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9f3db110]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fd4c5b0]
-  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9fad4840]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e9770]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226d05620]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -1980,45 +944,23 @@
     (0x03000000:NameValue):IdentityMappedPassword = NULL
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
-  (0x01000000:Object):JSON       = ( ['json' : 0x2af9fd4cf40]
-    (0x01000000:Object):Data = (
-      (0x03000000:NameValue):ROOT = 'string' (CHARACTER)
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2250883f0]
+  (0x01000000:Name):Destination        = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):WrittenDestination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9fd49f70]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fd49c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: 
---------------REST OUT  LOCALENVIRONMENT: 
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9fd49c40]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT
---------------REST OUT ROOT: ( ['MQROOT' : 0x2af9fead470]
-  (0x01000000:Name  ):Properties = ( ['MQPROPERTYPARSER' : 0x2af9ffae1d0]
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261e9440]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226d005a0]
     (0x03000000:NameValue):MessageSet             = NULL
     (0x03000000:NameValue):MessageType            = NULL
     (0x03000000:NameValue):MessageFormat          = NULL
@@ -2042,39 +984,189 @@
     (0x03000000:NameValue):IdentityMappedPassword = NULL
     (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
   )
-  (0x01000000:Object):JSON       = ( ['json' : 0x2af9feabe20]
-    (0x01000000:Object):Data = (
-      (0x03000000:NameValue):ROOT = 'string' (CHARACTER)
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f61ac0]
+  (0x01000000:Name):Destination        = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):WrittenDestination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
---------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x2af9feac7b0]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9feaf120]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
-    )
-  )
-)
+--------------REST OUT  ENVIRONMENT: 
 --------------REST OUT
---------------REST OUT ROOT: 
---------------REST OUT  LOCALENVIRONMENT: 
---------------REST OUT  ENVIRONMENT: ( ['MQROOT' : 0x2af9feaf120]
-  (0x01000000:Name):ROW = (
-    (0x01000000:Name):LIST = (
-      (0x03000000:NameValue):ID     = 1E+0 (FLOAT)
-      (0x03000000:NameValue):CODE   = 'FORMATO XML' (CHARACTER)
-      (0x03000000:NameValue):STATUS = 'A' (CHARACTER)
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2250860e0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a227059240]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2261ea430]
+  (0x01000000:Name):Destination        = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):WrittenDestination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
     )
   )
 )
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea760]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226a53ba0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f607a0]
+  (0x01000000:Name):Destination        = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):WrittenDestination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/xml' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a2261ea760]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x1a226a53ba0]
+    (0x03000000:NameValue):MessageSet             = NULL
+    (0x03000000:NameValue):MessageType            = NULL
+    (0x03000000:NameValue):MessageFormat          = NULL
+    (0x03000000:NameValue):Encoding               = NULL
+    (0x03000000:NameValue):CodedCharSetId         = NULL
+    (0x03000000:NameValue):Transactional          = NULL
+    (0x03000000:NameValue):Persistence            = NULL
+    (0x03000000:NameValue):CreationTime           = NULL
+    (0x03000000:NameValue):ExpirationTime         = NULL
+    (0x03000000:NameValue):Priority               = NULL
+    (0x03000000:NameValue):ReplyIdentifier        = NULL
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = NULL
+    (0x03000000:NameValue):IdentitySourceType     = NULL
+    (0x03000000:NameValue):IdentitySourceToken    = NULL
+    (0x03000000:NameValue):IdentitySourcePassword = NULL
+    (0x03000000:NameValue):IdentitySourceIssuedBy = NULL
+    (0x03000000:NameValue):IdentityMappedType     = NULL
+    (0x03000000:NameValue):IdentityMappedToken    = NULL
+    (0x03000000:NameValue):IdentityMappedPassword = NULL
+    (0x03000000:NameValue):IdentityMappedIssuedBy = NULL
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a224f607a0]
+  (0x01000000:Name):Destination        = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):WrittenDestination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 
+--------------REST OUT
+--------------REST OUT ROOT: ( ['WSRoot' : 0x1a224f607a0]
+  (0x01000000:Name):Properties         = ( ['WSPROPERTYPARSER' : 0x1a226a4e110]
+    (0x03000000:NameValue):MessageSet             = '' (CHARACTER)
+    (0x03000000:NameValue):MessageType            = '' (CHARACTER)
+    (0x03000000:NameValue):MessageFormat          = '' (CHARACTER)
+    (0x03000000:NameValue):Encoding               = 546 (INTEGER)
+    (0x03000000:NameValue):CodedCharSetId         = 1208 (INTEGER)
+    (0x03000000:NameValue):Transactional          = FALSE (BOOLEAN)
+    (0x03000000:NameValue):Persistence            = FALSE (BOOLEAN)
+    (0x03000000:NameValue):CreationTime           = GMTTIMESTAMP '2020-01-18 00:00:02.627' (GMTTIMESTAMP)
+    (0x03000000:NameValue):ExpirationTime         = -1 (INTEGER)
+    (0x03000000:NameValue):Priority               = 0 (INTEGER)
+    (0x03000000:NameValue):ReplyIdentifier        = X'000000000000000000000000000000000000000000000000' (BLOB)
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = 'application/json; charset=utf-8' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceType     = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceToken    = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourcePassword = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceIssuedBy = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedType     = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedToken    = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedPassword = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedIssuedBy = '' (CHARACTER)
+  )
+  (0x01000000:Name):HTTPResponseHeader = ( ['WSRSPHDR' : 0x1a224f5f7b0]
+    (0x03000000:NameValue):X-Original-HTTP-Status-Line = 'HTTP/1.1 200 OK' (CHARACTER)
+    (0x03000000:NameValue):X-Original-HTTP-Status-Code = 200 (INTEGER)
+    (0x03000000:NameValue):Server                      = 'IBM App Connect Enterprise' (CHARACTER)
+    (0x03000000:NameValue):Date                        = 'Sat, 18 Jan 2020 00:00:02 GMT' (CHARACTER)
+    (0x03000000:NameValue):Content-Type                = 'application/json; charset=utf-8' (CHARACTER)
+    (0x03000000:NameValue):Content-Length              = '52' (CHARACTER)
+  )
+  (0x01000000:Name):BLOB               = ( ['none' : 0x1a224a7cfc0]
+    (0x03000000:NameValue):UnknownParserName = '' (CHARACTER)
+    (0x03000000:NameValue):BLOB              = X'7b22434f4445223a22464f524d41544f204a534f4e222c224e414d45223a226a756c696f20636573617220746f7272657320227d' (BLOB)
+  )
+)
+--------------REST OUT  LOCALENVIRONMENT: ( ['MQROOT' : 0x1a2250883f0]
+  (0x01000000:Name):Destination        = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
+    )
+  )
+  (0x01000000:Name):WrittenDestination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestURL = 'http://localhost:7080/test/json' (CHARACTER)
+    )
+  )
+)
+--------------REST OUT  ENVIRONMENT: 

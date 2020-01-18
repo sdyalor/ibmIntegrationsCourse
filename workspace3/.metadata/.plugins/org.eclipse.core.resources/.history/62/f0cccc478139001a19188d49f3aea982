@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ComIbmCompute.msgnode="ComIbmCompute.msgnode" xmlns:ComIbmTrace.msgnode="ComIbmTrace.msgnode" xmlns:ComIbmWSInput.msgnode="ComIbmWSInput.msgnode" xmlns:ComIbmWSReply.msgnode="ComIbmWSReply.msgnode" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:eflow="http://www.ibm.com/wbi/2005/eflow" xmlns:utility="http://www.ibm.com/wbi/2005/eflow_utility" nsURI="pe/com/arqsoft/REST_format_message.msgflow" nsPrefix="pe_com_arqsoft_REST_format_message.msgflow">
+  <eClassifiers xmi:type="eflow:FCMComposite" name="FCMComposite_1">
+    <eSuperTypes href="http://www.ibm.com/wbi/2005/eflow#//FCMBlock"/>
+    <translation xmi:type="utility:TranslatableString" key="REST_format_message" bundleName="pe/com/arqsoft/REST_format_message" pluginId="blobSUBSTRING"/>
+    <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/blobSUBSTRING/icons/full/obj16/REST_format_message.gif"/>
+    <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/blobSUBSTRING/icons/full/obj30/REST_format_message.gif"/>
+    <composition>
+      <nodes xmi:type="ComIbmWSInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="62,224" URLSpecifier="/test/*" messageDomainProperty="BLOB">
+        <translation xmi:type="utility:ConstantString" string="HTTP Input"/>
+      </nodes>
+      <nodes xmi:type="ComIbmWSReply.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="520,234">
+        <translation xmi:type="utility:ConstantString" string="HTTP Reply"/>
+      </nodes>
+      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_3" location="283,231" dataSource="ACE_SAMPLE" computeExpression="esql://routine/pe.com.arqsoft#REST_format_message_Compute.Main">
+        <translation xmi:type="utility:ConstantString" string="asdf"/>
+      </nodes>
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_4" location="183,194" destination="file" filePath="C:\Users\userbus\Desktop\Nueva carpeta\ibmIntegrationsCourse\workspace3\REST_IN" pattern="--------------REST IN&#xD;&#xA;--------------REST IN ROOT: ${Root}&#xD;&#xA;--------------REST IN LOCALENVIRONMENT: ${LocalEnvironment}">
+        <translation xmi:type="utility:ConstantString" string="REST_IN"/>
+      </nodes>
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_5" location="185,301" destination="file" filePath="C:\Users\userbus\Desktop\Nueva carpeta\ibmIntegrationsCourse\workspace3\REST_FAIL" pattern="--------------REST IN FAIL: ${ExceptionList}&#xD;&#xA;">
+        <translation xmi:type="utility:ConstantString" string="Trace1"/>
+      </nodes>
+      <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_6" location="377,232" destination="file" filePath="C:\Users\userbus\Desktop\Nueva carpeta\ibmIntegrationsCourse\workspace3\REST_OUT" pattern="--------------REST OUT&#xD;&#xA;--------------REST OUT ROOT: ${Root}&#xD;&#xA;--------------REST OUT  LOCALENVIRONMENT: ${LocalEnvironment}&#xD;&#xA;--------------REST OUT  ENVIRONMENT: ${Environment}">
+        <translation xmi:type="utility:ConstantString" string="REST_OUT"/>
+      </nodes>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_1" targetNode="FCMComposite_1_4" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_2" targetNode="FCMComposite_1_3" sourceNode="FCMComposite_1_4" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_3" targetNode="FCMComposite_1_5" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.failure" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_4" targetNode="FCMComposite_1_5" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.catch" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_6" targetNode="FCMComposite_1_2" sourceNode="FCMComposite_1_6" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+      <connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_12" targetNode="FCMComposite_1_6" sourceNode="FCMComposite_1_3" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+    </composition>
+    <propertyOrganizer/>
+    <stickyBoard>
+      <stickyNote location="45,105">
+        <body xmi:type="utility:ConstantString" string="HTTP Input &#xA;Can not Handle &#xA;JSON and XMLNCS &#xA;at the same TIME"/>
+      </stickyNote>
+    </stickyBoard>
+  </eClassifiers>
+</ecore:EPackage>

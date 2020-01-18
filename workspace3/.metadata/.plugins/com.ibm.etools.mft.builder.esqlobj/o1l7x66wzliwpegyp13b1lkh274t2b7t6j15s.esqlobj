@@ -1,0 +1,6 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		SET OutputLocalEnvironment.Destination.MQ.DestinationData[1].queueName = 'nombre de cola';
+		RETURN TRUE;
+	END;
+

@@ -1,0 +1,8 @@
+CREATE COMPUTE MODULE rawTo_1Name_50_Table_Compute4
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		SET OutputLocalEnvironment.Destination.MQ.DestinationData[1].queueName = 'nombre de cola';
+		RETURN TRUE;
+	END;
+
+END MODULE;
