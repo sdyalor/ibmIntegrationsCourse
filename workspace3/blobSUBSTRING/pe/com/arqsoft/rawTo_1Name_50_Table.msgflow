@@ -30,7 +30,7 @@
       <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_9" location="471,314" destination="file" filePath="C:\Users\userbus\Desktop\Nueva carpeta\ibmIntegrationsCourse\workspace3\REST_CLIENT_OUT2" pattern="--------------REST OUT&#xD;&#xA;--------------REST OUT ROOT: ${Root}&#xD;&#xA;--------------REST OUT  LOCALENVIRONMENT: ${LocalEnvironment}&#xD;&#xA;--------------REST OUT  ENVIRONMENT: ${Environment}">
         <translation xmi:type="utility:ConstantString" string="REST_CLIENT_OUT2"/>
       </nodes>
-      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_10" location="328,293" dataSource="ACE_SAMPLE" computeExpression="esql://routine/pe.com.arqsoft#rawTo_1Name_50_Table_Computeid.Main">
+      <nodes xmi:type="ComIbmCompute.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_10" location="328,293" dataSource="ACE_SAMPLE" computeExpression="esql://routine/pe.com.arqsoft#rawTo_1Name_50_Table_Computeid.Main" computeMode="destinationAndMessage">
         <translation xmi:type="utility:ConstantString" string="request CODE using ID1"/>
       </nodes>
       <nodes xmi:type="ComIbmTrace.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_14" location="157,313" destination="file" filePath="C:\Users\userbus\Desktop\Nueva carpeta\ibmIntegrationsCourse\workspace3\REST_CLIENT_RESPONSE_OUT" pattern="--------------REST OUT&#xD;&#xA;--------------REST OUT ROOT: ${Root}&#xD;&#xA;--------------REST OUT  LOCALENVIRONMENT: ${LocalEnvironment}&#xD;&#xA;--------------REST OUT  ENVIRONMENT: ${Environment}">

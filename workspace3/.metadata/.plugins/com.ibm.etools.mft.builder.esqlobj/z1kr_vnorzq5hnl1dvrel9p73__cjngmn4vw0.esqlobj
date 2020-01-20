@@ -1,0 +1,9 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		-- CALL CopyMessageHeaders();
+	    --CALL CopyEntireMessage();
+	    SET OutputLocalEnvironment.Variables.ContentType = InputRoot;
+		--SET OutputLocalEnvironment.Destination.MQ.DestinationData[1].queueName = 'QL.RAWREST.RES.01';
+		RETURN TRUE;
+	END;
+

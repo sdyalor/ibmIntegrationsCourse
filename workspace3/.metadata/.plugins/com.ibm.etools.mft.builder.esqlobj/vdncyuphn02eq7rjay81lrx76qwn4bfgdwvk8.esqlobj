@@ -1,0 +1,12 @@
+CREATE COMPUTE MODULE rawTo_1Name_50_Table_Computeid
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		-- CALL CopyMessageHeaders();
+	    --CALL CopyEntireMessage();
+	    SET OutputLocalEnvironment.Variables.ContentType = InputRoot.HTTPResponseHeader.Content-Type ;/*'text/xml; charset=utf-8'*/    
+	    
+		--SET OutputLocalEnvironment.Destination.MQ.DestinationData[1].queueName = 'QL.RAWREST.RES.01';
+		RETURN TRUE;
+	END;
+
+END MODULE;

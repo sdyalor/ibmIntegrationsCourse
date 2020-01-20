@@ -1,0 +1,16 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		DELETE FIELD OutputRoot.HTTPRequestHeader;
+		
+		CREATE NEXTSIBLING OF OutputRoot DOMAIN 'MQMD' NAME 'MQMD'; 
+		SET OutputRoot.MQMD.MsgId = getMsgId('TMDW1');
+		SET OutputRoot.MQMD.CorrelId = OutputRoot.MQMD.MsgId;
+
+		RETURN TRUE;
+	END;
+
+	CREATE FUNCTION getMsgId(IN qmgr CHARACTER)
+		RETURNS BLOB
+		BEGIN
+		RETURN CAST(LEFT(qmgr || '    ', 8) AS BLOB CCSID 1208) || UUIDASBLOB;
+		END;

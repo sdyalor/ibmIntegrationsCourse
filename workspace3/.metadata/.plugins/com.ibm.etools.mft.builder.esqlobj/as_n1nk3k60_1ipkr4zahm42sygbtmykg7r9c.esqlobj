@@ -1,0 +1,11 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		-- CALL CopyMessageHeaders();
+	    --CALL CopyEntireMessage();
+	    SET OutputLocalEnvironment.Variables.ContentType = InputRoot.HTTPResponseHeader."Content-Type";
+	    /*'text/xml; charset=utf-8'*/    
+	    
+		--SET OutputLocalEnvironment.Destination.MQ.DestinationData[1].queueName = 'QL.RAWREST.RES.01';
+		RETURN TRUE;
+	END;
+

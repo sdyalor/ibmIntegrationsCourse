@@ -1,0 +1,27 @@
+/*EATE FUNCTION Main() RETURNS BOOLE*/
+	BEGIN
+		SET OutputRoot = InputRoot;
+		DELETE FIELD OutputRoot.HTTPRequestHeader;
+		DELETE FIELD OutputRoot.HTTPInputHeader;
+		--SET OutputRoot.Properties = InputRoot.Properites;
+--		DECLARE Message CHARACTER CAST(InputRoot.BLOB.BLOB AS CHARACTER CCSID InputProperties.CodedCharSetId);
+--		CREATE LASTCHILD OF OutputRoot NAME 'MESSAGE';
+		-- SET OutputLocalEnvironment.Variables.MESSAGE = Message;
+		CREATE NEXTSIBLING OF OutputRoot.Properties DOMAIN 'MQMD' NAME 'MQMD'; 
+		SET OutputRoot.MQMD.MsgId = getMsgId('TMDW1');
+		SET OutputRoot.MQMD.CorrelId = OutputRoot.MQMD.MsgId;
+		CREATE NEXTSIBLING OF OutputRoot.MQMD DOMAIN 'MQRFH2' NAME 'MQRFH2';
+		SET OutputRoot.MQRFH2.MsgId = getMsgId('TMDW1');
+		SET OutputRoot.MQRFHD.CorrelId = OutputRoot.MQMD.MsgId;
+		SET OutputRoot.MQRFHD.usr.RequestIdentifier = InputLocalEnvironment.Destination.HTTP.RequestIdentifier;
+		
+
+
+		RETURN TRUE;
+	END;
+
+	CREATE FUNCTION getMsgId(IN qmgr CHARACTER)
+		RETURNS BLOB
+		BEGIN
+		RETURN CAST(LEFT(qmgr || '    ', 8) AS BLOB CCSID 1208) || UUIDASBLOB;
+		END;

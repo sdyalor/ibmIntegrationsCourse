@@ -1,0 +1,190 @@
+--------------REST IN
+--------------REST IN ROOT: ( ['MQROOT' : 0x2244ff05570]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2244e55cec0]
+    (0x03000000:NameValue):MessageSet             = '' (CHARACTER)
+    (0x03000000:NameValue):MessageType            = '' (CHARACTER)
+    (0x03000000:NameValue):MessageFormat          = '' (CHARACTER)
+    (0x03000000:NameValue):Encoding               = 546 (INTEGER)
+    (0x03000000:NameValue):CodedCharSetId         = 850 (INTEGER)
+    (0x03000000:NameValue):Transactional          = TRUE (BOOLEAN)
+    (0x03000000:NameValue):Persistence            = FALSE (BOOLEAN)
+    (0x03000000:NameValue):CreationTime           = GMTTIMESTAMP '2020-01-20 22:44:08.430' (GMTTIMESTAMP)
+    (0x03000000:NameValue):ExpirationTime         = -1 (INTEGER)
+    (0x03000000:NameValue):Priority               = 0 (INTEGER)
+    (0x03000000:NameValue):ReplyIdentifier        = X'544d44573120202093273e646a75418ea110f6fae96f3f7a' (BLOB)
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceType     = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceToken    = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourcePassword = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceIssuedBy = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedType     = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedToken    = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedPassword = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedIssuedBy = '' (CHARACTER)
+  )
+  (0x01000000:Name):BLOB       = ( ['none' : 0x2244e2b51b0]
+    (0x03000000:NameValue):UnknownParserName = '' (CHARACTER)
+    (0x03000000:NameValue):BLOB              = X'7b2254455354223a2244415441227d' (BLOB)
+  )
+)
+--------------REST IN LOCALENVIRONMENT: ( ['MQROOT' : 0x2244ff03590]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = '414d5120514d475231202020202020207d2b1f5e2046e307' (CHARACTER)
+    )
+  )
+)
+--------------REST IN
+--------------REST IN ROOT: ( ['MQROOT' : 0x2244ff05570]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2244e55cec0]
+    (0x03000000:NameValue):MessageSet             = '' (CHARACTER)
+    (0x03000000:NameValue):MessageType            = '' (CHARACTER)
+    (0x03000000:NameValue):MessageFormat          = '' (CHARACTER)
+    (0x03000000:NameValue):Encoding               = 546 (INTEGER)
+    (0x03000000:NameValue):CodedCharSetId         = 850 (INTEGER)
+    (0x03000000:NameValue):Transactional          = TRUE (BOOLEAN)
+    (0x03000000:NameValue):Persistence            = FALSE (BOOLEAN)
+    (0x03000000:NameValue):CreationTime           = GMTTIMESTAMP '2020-01-20 22:48:16.410' (GMTTIMESTAMP)
+    (0x03000000:NameValue):ExpirationTime         = -1 (INTEGER)
+    (0x03000000:NameValue):Priority               = 0 (INTEGER)
+    (0x03000000:NameValue):ReplyIdentifier        = X'544d44573120202073a9c14db2a74f4b8cbdadf95dbb7a8f' (BLOB)
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceType     = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceToken    = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourcePassword = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceIssuedBy = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedType     = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedToken    = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedPassword = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedIssuedBy = '' (CHARACTER)
+  )
+  (0x01000000:Name):BLOB       = ( ['none' : 0x2244e2b51b0]
+    (0x03000000:NameValue):UnknownParserName = '' (CHARACTER)
+    (0x03000000:NameValue):BLOB              = X'7b2254455354223a2244415441227d' (BLOB)
+  )
+)
+--------------REST IN LOCALENVIRONMENT: ( ['MQROOT' : 0x2244ff03590]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = '414d5120514d475231202020202020207d2b1f5e2046e856' (CHARACTER)
+    )
+  )
+)
+--------------REST IN
+--------------REST IN ROOT: ( ['MQROOT' : 0x2244ff05570]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2244e55cec0]
+    (0x03000000:NameValue):MessageSet             = '' (CHARACTER)
+    (0x03000000:NameValue):MessageType            = '' (CHARACTER)
+    (0x03000000:NameValue):MessageFormat          = '' (CHARACTER)
+    (0x03000000:NameValue):Encoding               = 546 (INTEGER)
+    (0x03000000:NameValue):CodedCharSetId         = 850 (INTEGER)
+    (0x03000000:NameValue):Transactional          = TRUE (BOOLEAN)
+    (0x03000000:NameValue):Persistence            = FALSE (BOOLEAN)
+    (0x03000000:NameValue):CreationTime           = GMTTIMESTAMP '2020-01-20 22:51:11.680' (GMTTIMESTAMP)
+    (0x03000000:NameValue):ExpirationTime         = -1 (INTEGER)
+    (0x03000000:NameValue):Priority               = 0 (INTEGER)
+    (0x03000000:NameValue):ReplyIdentifier        = X'544d445731202020bfa9310826a84f9b8658bf95da8a493c' (BLOB)
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceType     = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceToken    = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourcePassword = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceIssuedBy = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedType     = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedToken    = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedPassword = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedIssuedBy = '' (CHARACTER)
+  )
+  (0x01000000:Name):BLOB       = ( ['none' : 0x2244e2b51b0]
+    (0x03000000:NameValue):UnknownParserName = '' (CHARACTER)
+    (0x03000000:NameValue):BLOB              = X'686f6c69' (BLOB)
+  )
+)
+--------------REST IN LOCALENVIRONMENT: ( ['MQROOT' : 0x2244ff03590]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = '414d5120514d475231202020202020207d2b1f5e2046ee2b' (CHARACTER)
+    )
+  )
+)
+--------------REST IN
+--------------REST IN ROOT: ( ['MQROOT' : 0x2244ff028d0]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x224501c9a00]
+    (0x03000000:NameValue):MessageSet             = '' (CHARACTER)
+    (0x03000000:NameValue):MessageType            = '' (CHARACTER)
+    (0x03000000:NameValue):MessageFormat          = '' (CHARACTER)
+    (0x03000000:NameValue):Encoding               = 546 (INTEGER)
+    (0x03000000:NameValue):CodedCharSetId         = 850 (INTEGER)
+    (0x03000000:NameValue):Transactional          = TRUE (BOOLEAN)
+    (0x03000000:NameValue):Persistence            = FALSE (BOOLEAN)
+    (0x03000000:NameValue):CreationTime           = GMTTIMESTAMP '2020-01-20 22:58:14.310' (GMTTIMESTAMP)
+    (0x03000000:NameValue):ExpirationTime         = -1 (INTEGER)
+    (0x03000000:NameValue):Priority               = 0 (INTEGER)
+    (0x03000000:NameValue):ReplyIdentifier        = X'544d4457312020204cd73988a8ac4c6da73fd986f9749540' (BLOB)
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceType     = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceToken    = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourcePassword = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceIssuedBy = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedType     = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedToken    = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedPassword = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedIssuedBy = '' (CHARACTER)
+  )
+  (0x01000000:Name):BLOB       = ( ['none' : 0x2244e2b5ae0]
+    (0x03000000:NameValue):UnknownParserName = '' (CHARACTER)
+    (0x03000000:NameValue):BLOB              = X'686f6c69' (BLOB)
+  )
+)
+--------------REST IN LOCALENVIRONMENT: ( ['MQROOT' : 0x2244ff02c00]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = '414d5120514d475231202020202020207d2b1f5e2046f80e' (CHARACTER)
+    )
+  )
+)
+--------------REST IN
+--------------REST IN ROOT: ( ['MQROOT' : 0x2245026bd40]
+  (0x01000000:Name):Properties = ( ['MQPROPERTYPARSER' : 0x2244aaf9610]
+    (0x03000000:NameValue):MessageSet             = '' (CHARACTER)
+    (0x03000000:NameValue):MessageType            = '' (CHARACTER)
+    (0x03000000:NameValue):MessageFormat          = '' (CHARACTER)
+    (0x03000000:NameValue):Encoding               = 546 (INTEGER)
+    (0x03000000:NameValue):CodedCharSetId         = 850 (INTEGER)
+    (0x03000000:NameValue):Transactional          = TRUE (BOOLEAN)
+    (0x03000000:NameValue):Persistence            = FALSE (BOOLEAN)
+    (0x03000000:NameValue):CreationTime           = GMTTIMESTAMP '2020-01-20 23:00:39.010' (GMTTIMESTAMP)
+    (0x03000000:NameValue):ExpirationTime         = -1 (INTEGER)
+    (0x03000000:NameValue):Priority               = 0 (INTEGER)
+    (0x03000000:NameValue):ReplyIdentifier        = X'544d4457312020207d5e875f9de648689f64f55f0aeddddc' (BLOB)
+    (0x03000000:NameValue):ReplyProtocol          = 'MQ' (CHARACTER)
+    (0x03000000:NameValue):Topic                  = NULL
+    (0x03000000:NameValue):ContentType            = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceType     = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceToken    = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourcePassword = '' (CHARACTER)
+    (0x03000000:NameValue):IdentitySourceIssuedBy = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedType     = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedToken    = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedPassword = '' (CHARACTER)
+    (0x03000000:NameValue):IdentityMappedIssuedBy = '' (CHARACTER)
+  )
+  (0x01000000:Name):BLOB       = ( ['none' : 0x2244e2b6410]
+    (0x03000000:NameValue):UnknownParserName = '' (CHARACTER)
+    (0x03000000:NameValue):BLOB              = X'686f6c69' (BLOB)
+  )
+)
+--------------REST IN LOCALENVIRONMENT: ( ['MQROOT' : 0x22450269700]
+  (0x01000000:Name):Destination = (
+    (0x01000000:Name):HTTP = (
+      (0x03000000:NameValue):RequestIdentifier = X'414d5120514d475231202020202020207d2b1f5e2046fc13' (BLOB)
+    )
+  )
+)

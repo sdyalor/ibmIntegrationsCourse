@@ -1,0 +1,60 @@
+CREATE COMPUTE MODULE flujo_xml_json_blob_Compute1
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		--SET Environment.Properties = InputProperties;
+        --SET Environment.MQMD = InputRoot.MQMD;
+        SET OutputRoot.Properties = Environment.Properties;
+        SET OutputRoot.MQMD = Environment.MQMD;
+       
+       DECLARE trama CHARACTER '';
+       SET trama = Environment.code;
+       
+		IF trama = 'FORMATO XML' THEN
+			CREATE LASTCHILD OF Environment DOMAIN 'XMLNSC' PARSE(InputRoot.BLOB.BLOB);
+		  	DECLARE refIn REFERENCE TO  Environment.XMLNSC.Data;
+			
+			DECLARE long INTEGER LENGTH(Environment.nombre);
+			DECLARE cadena CHARACTER REPLICATE(' ',50-longl);
+			DECLARE caenaNew CHARACTER Environment.nombre || cadena;
+			
+			DECLARE long1 INTEGER LENGTH(refIn.nomb_desc);
+			DECLARE cadena1 CHARACTER REPLICATE(' ',20-long1);
+			DECLARE caenaNew1 CHARACTER refIn.nomb_desc || cadena1;
+
+			set OutputRoot.BLOB.BLOB = cast(caenaNew || caenaNew1 as blob CCSID Environment.Properties.CodedCharSetId);
+		
+		ELSE
+			CREATE LASTCHILD OF Environment DOMAIN 'JSON' PARSE(InputRoot.BLOB.BLOB);
+		  	DECLARE refIn REFERENCE TO  Environment.JSON.Data;
+		  	
+			--DECLARE refIn REFERENCE TO InputRoot.JSON.Data;
+			DECLARE long INTEGER LENGTH(Environment.nombre);
+			DECLARE cadena CHARACTER REPLICATE(' ',50-long);
+			DECLARE caenaNew CHARACTER Environment.nombre || cadena;
+			
+			DECLARE long1 INTEGER LENGTH(refIn.nomb_desc);
+			DECLARE cadena1 CHARACTER REPLICATE(' ',20-long1);
+			DECLARE caenaNew1 CHARACTER refIn.nomb_desc || cadena1;
+			
+			SET OutputRoot.BLOB.BLOB = cast(caenaNew || caenaNew1 as blob CCSID Environment.Properties.CodedCharSetId);
+		END IF;
+
+
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+END MODULE;
